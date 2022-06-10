@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Boeing 737-700",
+    "asientos": "8 Premium | 120 Económica",
+    "largo": "39,5m",
+    "envergadura": "35,8m",
+    "alcance": "6.370km",
+    "cantidad": "31",
+    "texto": "Boeing",
+    "avion": "assets/Avion Comercial-534x378.jpg"
+  },
+  {
+    "titulo": "Airbus 330-200",
+    "asientos": "24 Premium | 248 Económica",
+    "largo": "58,82m",
+    "envergadura": "60,3m",
+    "alcance": "13.400km",
+    "cantidad": "10",
+    "texto": "Airbus",
+    "avion": "assets/Avion de lujo.png"
+  },
+  {
+    "titulo": "Embraer 190",
+    "asientos": "8 Premium | 88 Económica",
+    "largo": "36,24m",
+    "envergadura": "28,72m ",
+    "alcance": "4.448km",
+    "cantidad": "26",
+    "texto": "Embraer",
+    "avion": "assets/Avion Vip Blanco-596x338.jpg"
+  },
+  {
+    "titulo": "Boeing 737 Max 8 ",
+    "asientos": "8 Premium | 162 Económica",
+    "largo": "39,5m",
+    "envergadura": "35,9m",
+    "alcance": "6.500km",
+    "cantidad": "5",
+    "texto": "Boeing 737",
+    "avion": "assets/Avion low cost-696x290.jpg"
+  }
+]

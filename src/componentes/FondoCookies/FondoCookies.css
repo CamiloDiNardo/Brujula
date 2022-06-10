@@ -1,0 +1,11 @@
+/* Fondo intocable mientras este el cartel de cookies */
+.FondoCookie {
+  display: none;
+  background: rgba(0, 0, 0, 0.256);
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}

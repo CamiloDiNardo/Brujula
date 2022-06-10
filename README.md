@@ -39,4 +39,3 @@ todos los usestates
 14. DevTools no ha podido cargar el mapa de la fuente: No se ha podido cargar contenido de chrome-extension://pccckmaobkjjboncdfnnofkonhgpceea/js/hls.js.map: Error del sistema: net::ERR_BLOCKED_BY_CLIENT. sabes como sacar este error de consola? wtf.
 
 15. El preloader funciona como deberia? veo que se desvanece super rapido y me funciona solo en inicio, y tiene que ser para todas las paginas
-"# BrujulaReact" 

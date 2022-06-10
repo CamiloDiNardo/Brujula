@@ -1,0 +1,94 @@
+/*Empresa.HTML */
+.EmpresaContenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+}
+.EmpresaContenedor__img {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+  background-image: url('/src/assets/Fondopagweb.jpeg');
+  background-size: 30%;
+}
+.EmpresaContenedor__h1 {
+  position: absolute;
+  top: 120px;
+  transform: translate(50%-50);
+  font-size: 80px;
+}
+.EmpresaParrafo {
+  padding: 10px;
+}
+.EmpresaContenedor__h1--modificador {
+  top: 910px;
+}
+.EmpresaContenedor__h1--modificador2 {
+  top: 1650px;
+}
+.imagenessvgContenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  height: 610px;
+}
+
+.imagenessvgContenedor__iconos {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+.imagenessvgContenedor__p {
+  display: flex;
+  align-items: center;
+}
+.imagenessvgContenedor--modificador {
+  display: none;
+}
+
+@media screen and (max-width: 915px) {
+  .EmpresaContenedor {
+    height: 60px;
+  }
+  .EmpresaContenedor__img {
+    margin-top: 10px;
+    height: 50px;
+  }
+  .EmpresaContenedor__h1 {
+    top: 100px;
+    font-size: 30px;
+  }
+  .EmpresaContenedor__h1--modificador {
+    top: 1290px;
+    font-size: 25px;
+  }
+  .EmpresaContenedor__h1--modificador2 {
+    top: 1940px;
+  }
+  .imagenessvgContenedor {
+    display: none;
+  }
+  .imagenessvgContenedor--modificador {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    height: 610px;
+    display: inline;
+  }
+  .imagenessvgContenedor__p--modificador {
+    display: flex;
+    align-items: center;
+  }
+  .imagenessvgContenedor__iconos--modificador {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+  }
+}

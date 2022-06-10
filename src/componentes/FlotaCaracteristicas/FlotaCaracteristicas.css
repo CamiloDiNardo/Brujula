@@ -1,0 +1,43 @@
+/*Flota */
+.Titulo {
+  text-align: center;
+  font-size: 60px;
+}
+.flota {
+  padding: 20px;
+}
+.FlotaContenedor {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.FlotaContenedor__p {
+  display: flex;
+  justify-content: left;
+}
+.FlotaContenedor__img {
+  width: 500px;
+  height: 300px;
+}
+@media screen and (max-width: 915px) {
+  /*Flota*/
+  .FlotaContenedor {
+    flex-direction: column;
+  }
+  .FlotaContenedor__img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .FlotaContenedor__p {
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+  }
+  .Titulo {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+}

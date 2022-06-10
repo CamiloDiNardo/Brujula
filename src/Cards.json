@@ -1,0 +1,152 @@
+[
+  {
+    "ciudad": "Pekin",
+    "pais": "China",
+    "valor": "U$D5000",
+    "max": "40°",
+    "min": "25°",
+    "linkeado": "MurallaChina",
+    "imagenes": "assets/MurallaChina.jpg",
+    "alternativo": "MurallaChina"
+  },
+  {
+    "ciudad": "Paris",
+    "pais": "Francia",
+    "valor": "U$D6000",
+    "max": "34°",
+    "min": "20°",
+    "linkeado": "TorreEiffel",
+    "imagenes": "assets/TorreIfel.jpg",
+    "alternativo": "TorreIfel"
+  },
+  {
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "valor": "U$D1500",
+    "max": "35°",
+    "min": "10°",
+    "linkeado": "ColiseoDeRoma",
+    "imagenes": "assets/ColiseodeRoma.jpg",
+    "alternativo": "Roma"
+  },
+  {
+    "ciudad": "Calafate",
+    "pais": "Argentina",
+    "valor": "U$D1500",
+    "max": "-10°",
+    "min": "-50°",
+    "linkeado": "Calafate",
+    "imagenes": "assets/hielo-600x336.jpg",
+    "alternativo": "Calafate"
+  },
+  {
+    "ciudad": "Bariloche ",
+    "pais": "Argentina",
+    "valor": "U$D869",
+    "max": "20°",
+    "min": "-10°",
+    "linkeado": "Bariloche",
+    "imagenes": "assets/Barilocheconnieve-680x680.jpg",
+    "alternativo": "Bariloche"
+  },
+  {
+    "ciudad": "Palolem ",
+    "pais": "India",
+    "valor": "U$D1800",
+    "max": "40°",
+    "min": "30°",
+    "linkeado": "Palolem",
+    "imagenes": "assets/cabaña con playa-666x302.jpg",
+    "alternativo": "Palolem"
+  },
+  {
+    "ciudad": "Madrid",
+    "pais": "España",
+    "valor": "U$D700",
+    "max": "30°",
+    "min": "15°",
+    "linkeado": "Madrid",
+    "imagenes": "assets/paisajedemontañas-738x274.jpg",
+    "alternativo": "Madrid"
+  },
+  {
+    "ciudad": "ciudad Panama ",
+    "pais": "Panama",
+    "valor": "U$D1700",
+    "max": "25°",
+    "min": "10°",
+    "linkeado": "Panama",
+    "imagenes": "assets/Panama-1750x800.jpg",
+    "alternativo": "Panama"
+  },
+  {
+    "ciudad": "Lago Bled ",
+    "pais": "Eslovenia",
+    "valor": "U$D2000",
+    "max": "40°",
+    "min": "20°",
+    "linkeado": "LagoBled",
+    "imagenes": "assets/parejaencanoa-534x378.jpg",
+    "alternativo": "LagoBled"
+  },
+  {
+    "ciudad": "Rio De Janeiro ",
+    "pais": "Brazil",
+    "valor": "U$D1100",
+    "max": "38°",
+    "min": "20°",
+    "linkeado": "CristoRedentor",
+    "imagenes": "assets/CristoRedentor3.jpg",
+    "alternativo": "Rio De Janeiro"
+  },
+  {
+    "ciudad": "Machu Picchu ",
+    "pais": "Peru",
+    "valor": "U$D2000",
+    "max": "40°",
+    "min": "23°",
+    "linkeado": "MachuPicchu",
+    "imagenes": "assets/Machu Picchu.jpg",
+    "alternativo": "Machu Picchu"
+  },
+  {
+    "ciudad": "Tokio",
+    "pais": "Japon",
+    "valor": "U$D2000",
+    "max": "30°",
+    "min": "25°",
+    "linkeado": "MonteFiju",
+    "imagenes": "assets/MonteFuji.jpg",
+    "alternativo": "Tokio"
+  },
+  {
+    "ciudad": "Atenas",
+    "pais": "Grecia",
+    "valor": "U$D3450",
+    "max": "33°",
+    "min": "20°",
+    "linkeado": "AcropolisDeAtenas",
+    "imagenes": "assets/Acropolis de Atenas.jpg",
+    "alternativo": "Atenas"
+  },
+  {
+    "ciudad": "Sidney",
+    "pais": "Australia",
+    "valor": "U$D9999",
+    "max": "30°",
+    "min": "23°",
+    "linkeado": "OperaDeSidney",
+    "imagenes": "assets/operadesidney.jpg",
+    "alternativo": "Sidney"
+  },
+  {
+    "ciudad": "Paris",
+    "pais": "Francia",
+    "valor": "U$D6000",
+    "max": "28°",
+    "min": "23°",
+    "linkeado": "Disneyland",
+    "imagenes": "assets/Disneyland2.jpg",
+    "alternativo": "Paris"
+  }
+]

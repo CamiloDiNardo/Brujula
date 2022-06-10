@@ -1,0 +1,28 @@
+/*API Whatsapp flotante*/
+.WhatshappFlotante {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 50;
+}
+.WhatshappFlotante:hover {
+  background-color: #04cc4efd;
+}
+.WhatshappFlotante__svg {
+  width: 40px;
+}
+@media screen and (max-width: 915px) {
+  .WhatshappFlotante {
+    bottom: none;
+    top: 600px;
+  }
+}
