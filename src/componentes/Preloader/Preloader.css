@@ -1,0 +1,26 @@
+/*Preloader*/
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: lightgrey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.desaparecer {
+  animation: preloader 1s forwards;
+}
+@keyframes preloader {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 915px) {
+}

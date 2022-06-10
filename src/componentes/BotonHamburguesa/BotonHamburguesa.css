@@ -1,0 +1,52 @@
+/*Menu Hamburguesa*/
+.BotonHamburguesa {
+  width: 50px;
+  height: 150px;
+  border: none;
+  background: none;
+  margin-left: 20px;
+  display: none;
+}
+.BotonHamburguesa__icono {
+  width: 100%;
+  height: 60px;
+}
+.links {
+  width: 1200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 915px) {
+  .BotonHamburguesa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 250px;
+    height: 50px;
+    margin-top: 40px;
+  }
+  .BotonHamburguesa__icono {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 99px;
+    width: 414px;
+    height: calc(100% - 99px);
+    background-color: rgb(13, 61, 100);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+  .links__Visibles {
+    left: 0;
+  }
+}

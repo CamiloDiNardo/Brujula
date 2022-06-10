@@ -1,0 +1,41 @@
+/*Peliculas*/
+.Titulo {
+  text-align: center;
+  font-size: 60px;
+}
+.MovieDatabase {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 1500px;
+}
+.ContenedorBotonForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+}
+.ContenedorBotonForm--modificador {
+  justify-content: center;
+}
+@media screen and (max-width: 915px) {
+  .Titulo {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  .MovieDatabase {
+    height: 3300px;
+  }
+  .ContenedorBotonForm {
+    justify-content: center;
+    padding-left: 40px;
+  }
+  .ContenedorBotonForm--modificador {
+    height: 100px;
+    width: 412px;
+  }
+}

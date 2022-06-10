@@ -1,0 +1,95 @@
+/*Formulario Partido*/
+.ContenedorForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 750px;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.formularioPartido {
+  display: flex;
+  flex-direction: row;
+}
+.FormPrimeraParte,
+.FormSegundaParte {
+  width: 605px;
+  height: 325px;
+}
+.Forminput,
+.selector {
+  color: #fff;
+  background: #000;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid rgb(158, 3, 3);
+  width: 90%;
+  height: 70px;
+  border-radius: 10px;
+}
+.labels {
+  font-size: 30px;
+  font-weight: bold;
+}
+.ContenedorConsulta {
+  flex-wrap: wrap;
+  width: 1150px;
+  height: 200px;
+}
+.Forminput--textarea {
+  height: 150px;
+  width: 100%;
+  resize: none;
+}
+
+.ContenedorBotonForm__boton {
+  background-color: #000;
+  color: rgb(158, 3, 3);
+  border-radius: 10px;
+  border: none;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+.Titulo {
+  text-align: center;
+  font-size: 60px;
+}
+@media screen and (max-width: 915px) {
+  .ContenedorForm {
+    flex-direction: column;
+    height: 950px;
+    justify-content: none;
+  }
+  .formularioPartido {
+    display: flex;
+    flex-direction: column;
+  }
+  .FormPrimeraParte,
+  .FormSegundaParte {
+    width: 415px;
+    height: 325px;
+  }
+  .Forminput,
+  .selector {
+    margin-left: 10px;
+  }
+  .labels {
+    margin-left: 10px;
+    font-size: none;
+  }
+  .ContenedorConsulta {
+    width: 385px;
+  }
+  .Forminput--textarea {
+    height: 150px;
+    width: 100%;
+  }
+  .Titulo {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+}

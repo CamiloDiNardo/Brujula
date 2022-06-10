@@ -1,0 +1,50 @@
+.Titulo {
+  text-align: center;
+  font-size: 60px;
+}
+/*Slider Autodeslizable*/
+.SliderContainer {
+  width: 1150px;
+  height: 300px;
+  position: relative;
+  left: 100px;
+}
+.SliderContainer__img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 25px 25px 8px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.BotonSlider {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  cursor: pointer;
+  border: none;
+}
+.BotonSlider1 {
+  position: relative;
+  top: -180px;
+}
+.BotonSlider2 {
+  position: relative;
+  top: -180px;
+  left: 1050px;
+}
+@media screen and (max-width: 915px) {
+  .Titulo {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  .SliderContainer {
+    width: 390px;
+    height: 200px;
+    left: 5px;
+  }
+  .SliderContainer__img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 15px 15px 4px rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+}
