@@ -1,8 +1,8 @@
 import React from 'react';
-import FlotaCaracteristicas from './Flota';
+import FlotaCaracteristicas from './FlotaCaracteristicas';
 
 export default {
-  title: 'Flota',
+  title: 'FlotaCaracteristicas',
   Component: FlotaCaracteristicas,
 };
 

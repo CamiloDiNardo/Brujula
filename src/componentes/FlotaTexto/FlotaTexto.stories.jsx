@@ -1,8 +1,8 @@
 import React from 'react';
-import FlotaTexto from './Flota';
+import FlotaTexto from './FlotaTexto';
 
 export default {
-  title: 'Flota',
+  title: 'FlotaTexto',
   Component: FlotaTexto,
 };
 
