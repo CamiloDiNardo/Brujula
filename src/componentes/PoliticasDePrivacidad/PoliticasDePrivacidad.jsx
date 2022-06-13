@@ -7,17 +7,21 @@ const PoliticasDePrivacidad = (props) => {
         La actividad que desarrolla la empresa se encuentra fiscalizada por
         Administración Nacional de la Aviación Civil (ANAC).
         <br />
+        <br />
         La ley 25.326 es una norma de orden público que regula la actividad de
         las bases de datos que registran información de carácter personal con el
         objeto de garantizar a las personas el control del uso de sus datos
         personales.
         <br />
+        <br />
         Brujula y Austral han registrado sus bases de datos en el Registro
         Nacional de Bases de Datos, asegurando la efectiva tutela de los datos
         personales de todos sus usuarios.
         <br />
+        <br />
         Para más información, consulte la página web del Ministerio de Justicia
         y Derechos Humanos de la Nación Argentina: http://www.jus.gov.ar
+        <br />
         <br />
         -Política de Privacidad:
         <br />
@@ -29,12 +33,14 @@ const PoliticasDePrivacidad = (props) => {
         personal, y de acuerdo a la legislación vigente, usted declara que la
         información brindada es cierta.
         <br />
+        <br />
         Los datos que usted ingrese al Sitio se utilizarán para: envío de
         información de Productos, Servicios y Promociones de la empresa,
         requerimiento de reserva de pasajes promociónales exclusivas del sitio,
         reserva y venta de pasajes, inscripción al programa de pasajeros
         frecuentes de Brujula, obtener estadísticas, uso indistinto de
         marketing.
+        <br />
         <br />
         El ingreso de datos personales al Sitio por parte del usuario es
         voluntario, sin embargo Brujula S.A. manifiesta que su ingreso
@@ -45,6 +51,7 @@ const PoliticasDePrivacidad = (props) => {
         optimizando la calidad del servicio que le ofrecemos a fin de mantenerlo
         informado de posibles cambios, y autoriza a que la misma sea tratada,
         almacenada, recopilada en la base de datos de la compañía.
+        <br />
         <br />
         Brujula S.A. garantiza a los usuarios que ingresen sus datos en el
         Sitio, que los mismos serán encriptados para preservar la seguridad,
@@ -57,24 +64,29 @@ const PoliticasDePrivacidad = (props) => {
         alternativas que tiene sobre la manera que su información es recopilada
         y utilizada.
         <br />
+        <br />
         El sistema de encriptado implica que los datos solo podrán ser
         interpretados por Brujula S.A. y ningún intermediario tendrá acceso a la
         información.
+        <br />
         <br />
         El usuario podrá acceder a sus datos de carácter personal,
         rectificarlos, cancelarlos u oponerse a su tratamiento, mediante
         notificación al responsable de la base de datos
         (e-commerce@Brujula.com.ar) sin cargo alguno.
         <br />
+        <br />
         Brujula S.A. no cederá esta información con terceros. No obstante
         Brujula S.A. podrá enviar a sus usuarios ofertas promociónales o
         comunicados especiales, donde el usuario siempre tendrá la opción de
         solicitar dejar de recibirlos.
         <br />
+        <br />
         El usuario responderá, en cualquier caso, de la veracidad de los datos
         facilitados, reservándose Brujula S.A. el derecho de excluir a todo
         usuario que haya facilitado datos falsos, sin perjuicio de iniciar
         acciones legales.
+        <br />
         <br />
         Brujula S.A. se reserva el derecho de brindar información a organismos
         de control de fronteras, autoridades de inmigración, aduanas de
@@ -82,6 +94,7 @@ const PoliticasDePrivacidad = (props) => {
         medien razones fundadas relativas a la seguridad pública, la defensa
         nacional o la salud pública.
       </p>
+      <br />
       <br />
     </div>
   );

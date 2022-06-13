@@ -1,4 +1,5 @@
 import React from 'react';
+import './FlotaCaracteristicas.css';
 const FlotaCaracteristicas = ({
   titulo,
   asientos,
@@ -11,9 +12,15 @@ const FlotaCaracteristicas = ({
 }) => {
   return (
     <div>
-      <h1 className='Titulo'>{titulo}</h1>
-      <p className='FlotaContenedor__p'>
-        <img className='FlotaContenedor__img' src={avion} alt={texto}></img>
+      <h1 className='Titulo' data-aos='fade-up'>
+        {titulo}
+      </h1>
+      <p className='FlotaContenedor__p' data-aos='fade-up'>
+        <img
+          className='FlotaContenedor__img'
+          data-aos='fade-up'
+          src={require(`../../${avion}`)}
+          alt={texto}></img>
         -Asientos: {asientos} <br />
         -Largo: {largo} <br />
         -Envergadura: {envergadura}
@@ -22,7 +29,8 @@ const FlotaCaracteristicas = ({
         <br />
         -Cantidad: {cantidad}
       </p>
-      <hr color='#9e0303'></hr>
+      <br />
+      <hr color='#9e0303' data-aos='fade-up'></hr>
     </div>
   );
 };

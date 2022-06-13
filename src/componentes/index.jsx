@@ -7,7 +7,7 @@ import Cards from './Cards/Cards';
 import CardsVerTodos from './CardsVerTodos/CardsVerTodos';
 import Carrousell3D from './Carrousell3D/Carrousell3D';
 import CartelCookies from './CartelCookies/CartelCookies';
-import CondicionesGeneralesDeTransporte from './CondicionesGeneralesDeTransporte/CondicionesGeneralesDeTransporte';
+import CondicionesGenerales from './CondicionesGenerales/CondicionesGenerales';
 import Nosotros from './Nosotros/Nosotros';
 import FlotaCaracteristicas from './FlotaCaracteristicas/FlotaCaracteristicas';
 import FlotaTexto from './FlotaTexto/FlotaTexto';
@@ -28,6 +28,7 @@ import Slider from './Slider/Slider';
 import Video from './Video/Video';
 import WppFlotante from './WppFlotante/WppFlotante';
 import MapInfoCards from './MapInfoCards/MapInfoCards';
+import MapCardsVerTodos from './MapCardsVerTodos/MapCardsVerTodos';
 export {
   ApiMD,
   FlotaTexto,
@@ -42,7 +43,7 @@ export {
   CardsVerTodos,
   Carrousell3D,
   CartelCookies,
-  CondicionesGeneralesDeTransporte,
+  CondicionesGenerales,
   Nosotros,
   FlotaCaracteristicas,
   FondoCookies,
@@ -59,4 +60,5 @@ export {
   Video,
   WppFlotante,
   MapInfoCards,
+  MapCardsVerTodos,
 };

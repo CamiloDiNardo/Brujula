@@ -2,7 +2,7 @@
 .ContenedorFooter {
   margin-top: 20px;
   background-color: rgb(13, 61, 100);
-  width: 1356px;
+  width: 100%; /*antes tenia un 1356px*/
   height: 255px;
   text-align: center;
 }

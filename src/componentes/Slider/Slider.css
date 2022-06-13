@@ -25,11 +25,13 @@
 .BotonSlider1 {
   position: relative;
   top: -180px;
+  color: #fff;
 }
 .BotonSlider2 {
   position: relative;
   top: -180px;
   left: 1050px;
+  color: #fff;
 }
 @media screen and (max-width: 915px) {
   .Titulo {

@@ -1,6 +1,7 @@
 import React from 'react';
 import Video1 from '../../assets/NosotrosTeLLevamos.mp4';
 import Video2 from '../../assets/NosotrosTeLLevamos.ogv';
+import './Video.css';
 const Video = () => {
   return (
     <div>

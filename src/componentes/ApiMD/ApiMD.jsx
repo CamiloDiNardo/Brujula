@@ -1,5 +1,6 @@
 import React from 'react';
 import { BotonMD } from '../../componentes';
+import './ApiMD.css';
 const ApiMD = () => {
   // API The Movie Database.
   // Como puedo mejorarlo? deberia hacerlo en 2 componentes distintos?
@@ -48,9 +49,7 @@ const ApiMD = () => {
         className='MovieDatabase'
         id='MovieDatabase'
         data-aos='fade-up'></div>
-      <div
-        className='ContenedorBotonForm ContenedorBotonForm--modificador'
-        id='botonesContenedor'></div>
+      <BotonMD />
     </div>
   );
 };

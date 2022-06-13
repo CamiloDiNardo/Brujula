@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Footer.css';
 import InstagramIcono from '../../assets/instagram-square-brands.svg';
 import WhatshappIcono from '../../assets/whatsapp-brands.svg';
 import FacebookIcono from '../../assets/facebook-brands.svg';
 import YoutubeIcon from '../../assets/youtube-brands.svg';
 import NormasIram from '../../assets/Normas iram.png';
 import DataFiscal from '../../assets/Data fiscal.jpg';
-// Fijate de usar hooks para no renderizar el footer con usestate camilo
+// el segundo footer tiene que ir con usestate para no mostrarlo.
 const Footer = (props) => {
   return (
     <footer>
@@ -22,7 +23,7 @@ const Footer = (props) => {
               src={WhatshappIcono}
               alt='Whatshapp'></img>
           </a>
-          &#124;
+          &#124; &nbsp;
           <a
             data-aos='fade-up'
             href='https://www.facebook.com/Viajes-104631895045967/'
@@ -36,7 +37,7 @@ const Footer = (props) => {
               alt='Facebook'></img>
             ¡Seguinos en nuestras Redes Sociales!
           </a>
-          &#124;
+          &nbsp;
           <a
             data-aos='fade-up'
             href='https://www.instagram.com/mejoresviajesok/'
@@ -47,8 +48,8 @@ const Footer = (props) => {
               src={InstagramIcono}
               alt='Instagram'
               href='https://www.instagram.com/mejoresviajesok/'></img>
-          </a>{' '}
-          &#124;
+          </a>
+          &#124; &nbsp;
           <a
             data-aos='fade-up'
             href='https://www.youtube.com/channel/UCKgGLynM7xJz8Mq999srCsg/'
@@ -60,20 +61,21 @@ const Footer = (props) => {
               href='https://www.youtube.com/channel/UCKgGLynM7xJz8Mq999srCsg/'
               alt='Youtube'></img>
           </a>
-          &#124;
+          &#124; &nbsp;
           <img
             data-aos='fade-up'
             src={NormasIram}
             alt='NormasIram'
-            className='ContenedorFooter__iconos'></img>
-          &#124;
+            className='ContenedorFooter__iconos'></img>{' '}
+          &#124; &nbsp;
           <img
             data-aos='fade-up'
             src={DataFiscal}
             alt='DataFiscal'
-            className='ContenedorFooter__iconos'></img>
+            className='ContenedorFooter__iconos'></img>{' '}
+          &nbsp;
           <p data-aos='fade-up' className='ContenedorFooter__frase'>
-            Todos los derechos reservados- Brujula 2022
+            Todos los derechos reservados - Brujula 2022
           </p>
           <Link
             to='/PoliticasDeCookies'
@@ -81,14 +83,14 @@ const Footer = (props) => {
             alt='PoliticaDeCookies'>
             Politica De Cookies
           </Link>{' '}
-          &#124;
+          &#124; &nbsp;
           <Link
             to='/PoliticasDePrivacidad'
             className='ContenedorFooter__seguinos'
             alt='PoliticaDePrivacidad'>
             Politica De Privacidad
           </Link>{' '}
-          &#124;
+          &#124; &nbsp;
           <Link
             to='/CondicionesGenerales'
             className='ContenedorFooter__seguinos'
@@ -108,8 +110,8 @@ const Footer = (props) => {
               className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador'
               src={WhatshappIcono}
               alt='Whatshapp'></img>
-          </a>{' '}
-          &#124;
+          </a>
+          &#124; &nbsp;
           <a
             data-aos='fade-up'
             href='https://www.facebook.com/Viajes-104631895045967/'
@@ -121,7 +123,7 @@ const Footer = (props) => {
               src={FacebookIcono}
               href='https://www.facebook.com/Viajes-104631895045967/'
               alt='Facebook'></img>
-          </a>{' '}
+          </a>
           &#124;
           <a
             data-aos='fade-up'
@@ -133,8 +135,8 @@ const Footer = (props) => {
               src={InstagramIcono}
               alt='Instagram'
               href='https://www.instagram.com/mejoresviajesok/'></img>
-          </a>{' '}
-          &#124;
+          </a>
+          &#124; &nbsp;
           <a
             data-aos='fade-up'
             href='https://www.youtube.com/channel/UCKgGLynM7xJz8Mq999srCsg/'
@@ -146,19 +148,19 @@ const Footer = (props) => {
               href='https://www.youtube.com/channel/UCKgGLynM7xJz8Mq999srCsg/'
               alt='Youtube'></img>
           </a>{' '}
-          &#124;
+          &#124; &nbsp;
           <img
             data-aos='fade-up'
             src={NormasIram}
             alt='NormasIram'
             className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador'></img>{' '}
-          &#124;
+          &#124; &nbsp;
           <img
             data-aos='fade-up'
             src={DataFiscal}
             alt='DataFiscal'
             className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador'></img>{' '}
-          &#124;
+          &#124; &nbsp;
           <p
             data-aos='fade-up'
             className='ContenedorFooter__frase ContenedorFooter__frase--modificador'>
@@ -170,12 +172,14 @@ const Footer = (props) => {
             alt='PoliticaDeCookies'>
             Politica De Cookies
           </Link>
+          &#124; &nbsp;
           <Link
             to='/PoliticasDePrivacidad'
             className='ContenedorFooter__seguinos ContenedorFooter__seguinos--modificador'
             alt='PoliticaDePrivacidad'>
             Politica De Privacidad
           </Link>
+          &#124; &nbsp;
           <Link
             to='/CondicionesGenerales'
             className='ContenedorFooter__seguinos ContenedorFooter__seguinos--modificador'

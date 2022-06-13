@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Formulario.css';
+import { BotonFormulario } from '../../componentes';
 const Formulario = (props) => {
   return (
     <div className='ContenedorForm' id='formulario' data-aos='fade-up'>
@@ -98,6 +100,7 @@ const Formulario = (props) => {
             required=''
             placeholder='Ingrese su Consulta'></textarea>
         </div>
+        <BotonFormulario />
       </form>
     </div>
   );

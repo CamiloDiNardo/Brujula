@@ -12,6 +12,8 @@ import Hotel7 from '../../assets/hotel lujoso orlando.jpg';
 const GaleriaHexagonal = (props) => {
   return (
     <div>
+      <br />
+      <br />
       <div className='GaleriaHexagonalContenedor' data-aos='fade-up'>
         <div className='GaleriaHexagonal__div GaleriaHexagonal__div--modificador'>
           <img
@@ -56,6 +58,8 @@ const GaleriaHexagonal = (props) => {
             className='GaleriaHexagonal__img'></img>
         </div>
       </div>
+      <br />
+      <br />
       <hr color='#9e0303'></hr>
     </div>
   );

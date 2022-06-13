@@ -1,10 +1,8 @@
 import React from 'react';
 import './BotonHamburguesa.css';
 import IconoHamburguesa from '../../assets/bars-solid.svg';
-
-const BotonHamburguesa = (props) => {
+const BotonHamburguesa = () => {
   return (
-    // talves tengamos q eliminar el onClick de ahi
     <button className='BotonHamburguesa'>
       <img
         className='BotonHamburguesa__icono'

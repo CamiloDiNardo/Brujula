@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Temperatura from '../../assets/temperature-half-solid.svg';
+import Wifi from '../../assets/wifi-solid.svg';
+import './Cards.css';
 const Cards = ({
   ciudad,
   pais,
@@ -11,34 +14,29 @@ const Cards = ({
   alternativo,
 }) => {
   return (
-    <div>
-      <div className='card'>
-        <img className='card__img' src={imagenes} alt={alternativo}></img>
-        <h1>
-          {ciudad} &#124; {pais}
-        </h1>
-        <p className='card__p'>
-          Desde:<b>{valor}</b>
-        </p>
-        <img
-          className='card__icono'
-          src='../../assets/wifi-solid.svg'
-          alt='Wifi'></img>
-        WIFI &#124;
-        <img
-          className='card__icono'
-          src='../../assets/temperature-half-solid.svg'
-          alt='Temperatura'></img>
-        Temperatura:
-        <b>
-          {min}&#124;{max}
-        </b>
-        <Link to={`/${linkeado}`}>
-          <button className='card__button'>
-            <span className='Card__span'>VER MAS</span>
-          </button>
-        </Link>
-      </div>
+    <div className='card'>
+      <img
+        className='card__img'
+        src={require(`../../${imagenes}`)} // como podria hacerlo sin el require ?
+        alt={alternativo}></img>
+      <h1>
+        {ciudad} &#124; {pais}
+      </h1>
+      <p className='card__p'>
+        Desde:<b>{valor}</b>
+      </p>
+      <img className='card__icono' src={Temperatura} alt='Wifi'></img>
+      WIFI &#124;
+      <img className='card__icono' src={Wifi} alt='Temperatura'></img>
+      Temperatura:
+      <b>
+        {min}&#124;{max}
+      </b>
+      <Link to={linkeado}>
+        <button className='card__button'>
+          <span className='Card__span'>VER MAS</span>
+        </button>
+      </Link>
     </div>
   );
 };

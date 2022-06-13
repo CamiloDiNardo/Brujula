@@ -6,35 +6,37 @@ const MapFlotaCaracteristicas = () => {
   console.log(DatosFlota);
   return (
     <div>
-      <div className='FlotaContenedor'></div>
-      <div data-aos='fade-up'></div>
-      {DatosFlota.map(
-        (
-          {
-            titulo,
-            asientos,
-            largo,
-            envergadura,
-            alcance,
-            cantidad,
-            texto,
-            avion,
-          },
-          index
-        ) => (
-          <FlotaCaracteristicas
-            titulo={titulo}
-            asientos={asientos}
-            largo={largo}
-            envergadura={envergadura}
-            alcance={alcance}
-            cantidad={cantidad}
-            texto={texto}
-            avion={avion}
-            key={index}
-          />
-        )
-      )}
+      <div className='FlotaContenedor'>
+        <div data-aos='fade-up'>
+          {DatosFlota.map(
+            (
+              {
+                titulo,
+                asientos,
+                largo,
+                envergadura,
+                alcance,
+                cantidad,
+                texto,
+                avion,
+              },
+              index
+            ) => (
+              <FlotaCaracteristicas
+                titulo={titulo}
+                asientos={asientos}
+                largo={largo}
+                envergadura={envergadura}
+                alcance={alcance}
+                cantidad={cantidad}
+                texto={texto}
+                avion={avion}
+                key={index}
+              />
+            )
+          )}
+        </div>
+      </div>
     </div>
   );
 };

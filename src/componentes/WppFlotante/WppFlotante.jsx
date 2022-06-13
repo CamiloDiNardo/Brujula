@@ -1,4 +1,5 @@
 import React from 'react';
+import './WppFlotante.css';
 import Whatshapp from '../../assets/whatsapp-brands.svg';
 const WppFlotante = (props) => {
   return (

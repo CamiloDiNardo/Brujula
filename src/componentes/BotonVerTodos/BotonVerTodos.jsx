@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './BotonVerTodos.css';
 const BotonVerTodos = () => {
   return (
     <div data-aos='fade-up' className='button'>

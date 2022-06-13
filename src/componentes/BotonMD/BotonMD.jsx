@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ApiMD from '../ApiMD/ApiMD';
+import './BotonMD.css';
 const BotonMD = (props) => {
   // Botones Api The Movie Database
   const [AdelanteyAtras, SetAdelanteyAtras] = useState(1); // las paginas por defecto son 1

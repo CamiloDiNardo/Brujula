@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import {
   Header,
@@ -7,10 +7,12 @@ import {
   MapInfoCards,
   WppFlotante,
 } from '../componentes';
-import '../componentes/Header/Header.css';
-import '../componentes/Footer/Footer.css';
-import '../componentes/Formulario/Formulario.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Palolem = (props) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000, once: true });
+  }, []);
   return (
     <div>
       <WppFlotante />

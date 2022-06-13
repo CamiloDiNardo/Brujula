@@ -1,7 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { BotonHamburgesa } from '../../componentes';
 import Logo from '../../assets/brujulacolorida.jpg';
+import './Header.css';
 const Header = () => {
   return (
     <header>
@@ -10,6 +11,7 @@ const Header = () => {
           <Link to='/'>
             <img className='brujula__img' src={Logo} alt='Brujula'></img>
           </Link>
+          <BotonHamburgesa />
           <div className='links'>
             <Link to='/' className='links__a'>
               Inicio

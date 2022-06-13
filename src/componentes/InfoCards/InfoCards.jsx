@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './InfoCards.css';
 const InfoCards = ({
   clima,
   excursiones,

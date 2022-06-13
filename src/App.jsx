@@ -46,7 +46,7 @@ const App = () => {
             <Route path='/Calafate' element={<Calafate />} />
             <Route path='/ColiseoDeRoma' element={<ColiseoDeRoma />} />
             <Route
-              path='/CondicionesGeneralesDeTransporte'
+              path='/CondicionesGenerales'
               element={<CondicionesGeneralesDeTransporte />}
             />
             <Route path='/CristoRedentor' element={<CristoRedentor />} />

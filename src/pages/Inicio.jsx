@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   Header,
   Video,
@@ -6,37 +6,29 @@ import {
   BotonVerTodos,
   Slider,
   ApiMD,
-  BotonMD,
   Formulario,
-  BotonFormulario,
   Footer,
   WppFlotante,
+  CartelCookies,
 } from '../componentes';
-import '../componentes/Header/Header.css';
-import '../componentes/Video/Video.css';
-import '../componentes/BotonVerTodos/BotonVerTodos.css';
-import '../componentes/Slider/Slider.css';
-import '../componentes/ApiMD/ApiMD.css';
-import '../componentes/BotonMD/BotonMD.css';
-import '../componentes/Formulario/Formulario.css';
-import '../componentes/BotonFormulario/BotonFormulario.css';
-import '../componentes/Footer/Footer.css';
-import '../componentes/WppFlotante/WppFlotante.css';
-import '../componentes/Cards/Cards.css';
+import Aos from 'aos'; // Donde va esto? funciona solo con 1 solo mepa q es configuracion global
+import 'aos/dist/aos.css';
 const Inicio = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000, once: true });
+  }, []);
   return (
     <div>
       <Header />
+      <WppFlotante />
+      <CartelCookies />
       <Video />
       <MapCards />
       <BotonVerTodos />
       <Slider />
       <ApiMD />
-      <BotonMD />
       <Formulario />
-      <BotonFormulario />
       <Footer />
-      <WppFlotante />
     </div>
   );
 };
