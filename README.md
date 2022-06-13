@@ -2,7 +2,6 @@ Gracias por toda tu ayuda! :D 0. si nesesitas una guia de como se tendria que ve
 
 Data Relevante : uso react router dom version 18 no 17
 -si nesesitas navegar por la pagina, comenta el componente fondocookies
--la api no la consumi todavia pienso hacerlo en estos dias
 -vas a notar que en consola no hay errores. lo cual es raro, pero supongo que si cargara todo, la consola tendria errores nuevamente o eso espero porque sin errores es mas dificil saber que esta pasando
 -Falta algun que otro texto de algun componente, no te preocupes que eso despues lo implemento yo
 -tengo algunos display: none. la idea final es sacarlos y usar usestate para mostrar o no las cosas y dejar de usar el display none, asi que si queres sacarlos podes, pero no termine de hacer
