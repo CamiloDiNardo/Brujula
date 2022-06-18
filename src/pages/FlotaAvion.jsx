@@ -4,7 +4,6 @@ import {
   FlotaTexto,
   MapFlotaCaracteristicas,
   Formulario,
-  Footer,
   WppFlotante,
 } from '../componentes';
 import Aos from 'aos';
@@ -20,7 +19,6 @@ const FlotaAvion = (props) => {
       <FlotaTexto />
       <MapFlotaCaracteristicas />
       <Formulario />
-      <Footer />
     </div>
   );
 };

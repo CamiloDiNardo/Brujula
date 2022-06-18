@@ -1,752 +1,752 @@
 [
   {
     "titulo": "Pekin",
-    "imagenes": "assets/MurallaChinabarco.jpg",
-    "texto": "imgpekin1"
+    "imagenes": "assets/Pekin/1.jpg",
+    "texto": "imgPekin1"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MurallaChinacirculo.jpg",
-    "texto": " imgpekin2"
+    "imagenes": "assets/Pekin/2.jpg",
+    "texto": " imgPekin2"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MurallaChinaedificio.jpg",
-    "texto": " imgpekin3"
+    "imagenes": "assets/Pekin/3.jpg",
+    "texto": " imgPekin3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Murallachinainicio.jpg",
-    "texto": " imgpekin4"
+    "imagenes": "assets/Pekin/4.jpg",
+    "texto": " imgPekin4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MurallaChinararo.jpg",
-    "texto": " imgpekin5"
+    "imagenes": "assets/Pekin/5.jpg",
+    "texto": " imgPekin5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MurallaChinaedificios.jpg",
-    "texto": " imgpekin6"
+    "imagenes": "assets/Pekin/6.jpg",
+    "texto": " imgPekin6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Murallachinacastillo.jpg",
-    "texto": "imgpekin7 "
+    "imagenes": "assets/Pekin/7.jpg",
+    "texto": "imgPekin7 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MurallaChinawtf.jpg",
-    "texto": "imgpekin8 "
+    "imagenes": "assets/Pekin/8.jpg",
+    "texto": "imgPekin8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MurallaChina.jpg",
-    "texto": "imgpekin9 "
+    "imagenes": "assets/Pekin/9.jpg",
+    "texto": "imgPekin9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MurallaChina2.jpg",
-    "texto": "imgpekin10 "
+    "imagenes": "assets/Pekin/10.jpg",
+    "texto": "imgPekin10 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelciudad.jpg",
+    "imagenes": "assets/Paris/1.jpg",
     "texto": "imgParis1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfeldenoche.jpg",
+    "imagenes": "assets/Paris/2.jpg",
     "texto": "imgParis2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelescultura.jpg",
+    "imagenes": "assets/Paris/3.jpg",
     "texto": "imgParis3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelgargolas.jpeg",
+    "imagenes": "assets/Paris/4.jpg",
     "texto": " imgParis4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelmuro.jpg",
+    "imagenes": "assets/Paris/5.jpg",
     "texto": "imgParis5 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelGargola.jpg",
+    "imagenes": "assets/Paris/6.jpg",
     "texto": "imgParis6 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelperspectiva2.jpeg",
+    "imagenes": "assets/Paris/7.jpg",
     "texto": "imgParis7 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelperspectiva3.jpg",
+    "imagenes": "assets/Paris/8.jpg",
     "texto": "imgParis8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelraro.jpg",
+    "imagenes": "assets/Paris/9.jpg",
     "texto": " imgParis9"
   },
   {
     "titulo": "",
-    "imagenes": "assets/TorreIfelwtf.png",
+    "imagenes": "assets/Paris/10.png",
     "texto": "imgParis10 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomabiblioteca.jpg'",
-    "texto": "imgItalia1"
+    "imagenes": "assets/Roma/1.jpg'",
+    "texto": "imgRoma1"
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRoma3.jpg",
-    "texto": "imgItalia2"
+    "imagenes": "assets/Roma/2.jpg",
+    "texto": "imgRoma2"
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomaciudad.jpg",
-    "texto": "imgItalia3 "
+    "imagenes": "assets/Roma/3.jpg",
+    "texto": "imgRoma3 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomaciudad2.jpg",
-    "texto": "imgItalia4 "
+    "imagenes": "assets/Roma/4.jpg",
+    "texto": "imgRoma4 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomaescaleras.jpg",
-    "texto": "imgItalia5 "
+    "imagenes": "assets/Roma/5.jpg",
+    "texto": "imgRoma5 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomaestatuas.jpg",
-    "texto": "imgItalia6 "
+    "imagenes": "assets/Roma/6.jpg",
+    "texto": "imgRoma6 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomaestatuas2.jpg",
-    "texto": "imgItalia7 "
+    "imagenes": "assets/Roma/7.jpg",
+    "texto": "imgRoma7 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomafuente.jpg",
-    "texto": "imgItalia8 "
+    "imagenes": "assets/Roma/8.jpg",
+    "texto": "imgRoma8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomapuente.jpg",
-    "texto": "imgItalia9 "
+    "imagenes": "assets/Roma/9.jpg",
+    "texto": "imgRoma9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/ColiseodeRomaxdentor.jpg",
-    "texto": "imgItalia10"
+    "imagenes": "assets/Roma/10.jpg",
+    "texto": "imgRoma10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/El_Calafate_nocturno.jpg",
+    "imagenes": "assets/Calafate/1.jpg",
     "texto": "imgCalafate1"
   },
   {
     "titulo": "",
-    "imagenes": "assets/calafateescalar-518x388.jpg",
+    "imagenes": "assets/Calafate/2.jpg",
     "texto": "imgCalafate2"
   },
   {
     "titulo": "",
-    "imagenes": "assets/CalafateBarco-1600x1060.jpg",
+    "imagenes": "assets/Calafate/3.jpg",
     "texto": "imgCalafate3 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/CalafateGlaciarHundido.jpg",
+    "imagenes": "assets/Calafate/4.jpg",
     "texto": " imgCalafate4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/CalafateMontañayhielo.jpg",
+    "imagenes": "assets/Calafate/5.jpg",
     "texto": " imgCalafate5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/CalafateGlaciarNegro-2048x1374.jpg",
+    "imagenes": "assets/Calafate/6.jpg",
     "texto": "imgCalafate6 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/GlaciarPeritoMoreno.jpg'",
+    "imagenes": "assets/Calafate/7.jpg'",
     "texto": "imgCalafate7 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Calafatemontaña-1800x1012.jpg",
+    "imagenes": "assets/Calafate/8.jpg",
     "texto": "imgCalafate8"
   },
   {
     "titulo": "",
-    "imagenes": "assets/suiteCalafate-2048x1150.jpg'",
+    "imagenes": "assets/Calafate/9.jpg'",
     "texto": "imgCalafate9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/CalafateNovios-600x336.jpg",
+    "imagenes": "assets/Calafate/10.jpg",
     "texto": "imgCalafate10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Barilo de noche.jpg",
+    "imagenes": "assets/Bariloche/1.jpg",
     "texto": "imgBariloche1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/barilolindodedia.jpg",
+    "imagenes": "assets/Bariloche/2.jpg",
     "texto": "imgBariloche2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/BarilocheCartel.jpg",
+    "imagenes": "assets/Bariloche/3.jpg",
     "texto": "imgBariloche3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Barilocheconcaballo.jpg",
+    "imagenes": "assets/Bariloche/4.jpg",
     "texto": " imgBariloche4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Barilocheconhombre.jpg",
+    "imagenes": "assets/Bariloche/5.jpg",
     "texto": "imgBariloche5 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/BarilocheConNieve.jpg",
+    "imagenes": "assets/Bariloche/6.jpg",
     "texto": " imgBariloche6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/BarilocheConvino.jpg",
+    "imagenes": "assets/Bariloche/7.jpg",
     "texto": "imgBariloche7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/BarilocheExcursion.jpg",
+    "imagenes": "assets/Bariloche/8.jpg",
     "texto": " imgBariloche8"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Barilocheconhielo.jpg",
+    "imagenes": "assets/Bariloche/9.jpg",
     "texto": "imgBariloche9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Barilochedenochesita.jpg",
+    "imagenes": "assets/Bariloche/10.jpg",
     "texto": " imgBariloche10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/palolem-beach.jpg",
-    "texto": "imgpalolem1 "
+    "imagenes": "assets/Palolem/1.jpg",
+    "texto": "imgPalolem1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/PalolemRestauran.jpg",
-    "texto": "imgpalolem2 "
+    "imagenes": "assets/Palolem/2.jpg",
+    "texto": "imgPalolem2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/PalolemMasplaya.jpg",
-    "texto": "imgpalolem3 "
+    "imagenes": "assets/Palolem/3.jpg",
+    "texto": "imgPalolem3 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Palolemcasas.jpg",
-    "texto": " imgpalolem4"
+    "imagenes": "assets/Palolem/4.jpg",
+    "texto": " imgPalolem4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/PalolemHombreCorriendo.jpg",
-    "texto": "imgpalolem5 "
+    "imagenes": "assets/Palolem/5.jpg",
+    "texto": "imgPalolem5 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/PalolemPlayaotravista.jpg",
-    "texto": "imgpalolem6 "
+    "imagenes": "assets/Palolem/6.jpg",
+    "texto": "imgPalolem6 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Palolemfeo.jpg'",
-    "texto": " imgpalolem7"
+    "imagenes": "assets/Palolem/7.jpg'",
+    "texto": " imgPalolem7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Palolemrocas.jpg",
-    "texto": "imgpalolem8 "
+    "imagenes": "assets/Palolem/8.jpg",
+    "texto": "imgPalolem8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/PalolemVista2.jpg",
-    "texto": "imgpalolem9 "
+    "imagenes": "assets/Palolem/9.jpg",
+    "texto": "imgPalolem9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Palolemvista3.jpg",
-    "texto": "imgpalolem10"
+    "imagenes": "assets/Palolem/10.jpg",
+    "texto": "imgPalolem10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Madridconnieve.jpg",
+    "imagenes": "assets/Madrid/1.jpg",
     "texto": "imgMadrid1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MadridEdificios4.jpg",
+    "imagenes": "assets/Madrid/2.jpg",
     "texto": "imgMadrid2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MadridEdificios3.jpg",
+    "imagenes": "assets/Madrid/3.jpg",
     "texto": " imgMadrid3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Madridediificios.jpg",
+    "imagenes": "assets/Madrid/4.jpg",
     "texto": " imgMadrid4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Madridestatua.jpg",
+    "imagenes": "assets/Madrid/5.jpg",
     "texto": "imgMadrid5 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Madridestatua2.jpg",
+    "imagenes": "assets/Madrid/6.jpg",
     "texto": " imgMadrid6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MadridLeones.jpg",
+    "imagenes": "assets/Madrid/7.jpg",
     "texto": "imgMadrid7 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MadridRealMadrid.jpg",
+    "imagenes": "assets/Madrid/8.jpg",
     "texto": "imgMadrid8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MadridRotonda.jpg",
+    "imagenes": "assets/Madrid/9.jpg",
     "texto": "imgMadrid9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MadridTuristico.jpg",
+    "imagenes": "assets/Madrid/10.jpg",
     "texto": "imgMadrid10 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/PanamaBandera.jpg",
+    "imagenes": "assets/Panama/1.jpg",
     "texto": "imgPanama1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Panamacalles.jpg",
+    "imagenes": "assets/Panama/2.jpg",
     "texto": "imgPanama2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/PanamaCartel2.jpg",
+    "imagenes": "assets/Panama/3.jpg",
     "texto": "imgPanama3 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Panamanoche.jpg",
+    "imagenes": "assets/Panama/4.jpg",
     "texto": " imgPanama4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/PanamaCorriendo.jpg",
+    "imagenes": "assets/Panama/5.jpg",
     "texto": " imgPanama5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Panamadenoche.jpg",
+    "imagenes": "assets/Panama/6.jpg",
     "texto": " imgPanama6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Panamahermosa.jpg",
+    "imagenes": "assets/Panama/7.jpg",
     "texto": " imgPanama7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Panamavista1.jpg'",
+    "imagenes": "assets/Panama/8.jpg'",
     "texto": "imgPanama8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Panamavisrarara.jpg",
+    "imagenes": "assets/Panama/9.jpg",
     "texto": "imgPanama9"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Panamavista2.jpg",
+    "imagenes": "assets/Panama/10.jpg",
     "texto": "imgPanama10 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/CiudadBred.jpg",
-    "texto": "imgbled1 "
+    "imagenes": "assets/Bled/1.jpg",
+    "texto": "imgBled1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/iglesiaperspectiva.jpg",
-    "texto": "imgbled2 "
+    "imagenes": "assets/Bled/2.jpg",
+    "texto": "imgBled2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/CiudadBred2.jpg",
-    "texto": " imgbled3"
+    "imagenes": "assets/Bled/3.jpg",
+    "texto": " imgBled3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/LagoBred1.jpg",
-    "texto": "imgbled4 "
+    "imagenes": "assets/Bled/4.jpg",
+    "texto": "imgBled4 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/CIudadBred3.jpg",
-    "texto": " imgbled5"
+    "imagenes": "assets/Bled/5.jpg",
+    "texto": " imgBled5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/LagoBredconperros.jpg",
-    "texto": " imgbled6"
+    "imagenes": "assets/Bled/6.jpg",
+    "texto": " imgBled6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/LagoBredconpuente.jpg",
-    "texto": " imgbled7"
+    "imagenes": "assets/Bled/7.jpg",
+    "texto": " imgBled7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Lagobredhermoso.jpg",
-    "texto": " imgbled8"
+    "imagenes": "assets/Bled/8.jpg",
+    "texto": " imgBled8"
   },
   {
     "titulo": "",
-    "imagenes": "assets/CiudadBred4.jpg'.jpg",
-    "texto": "imgbled9 "
+    "imagenes": "assets/Bled/9.jpg",
+    "texto": "imgBled9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/IglesiaFlotantedenoche.jpg",
-    "texto": "imgbled10 "
+    "imagenes": "assets/Bled/10.jpg",
+    "texto": "imgBled10 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasvalcon2.jpg",
-    "texto": "imgAcropolis "
+    "imagenes": "assets/Atenas/1.jpg",
+    "texto": "imgAtenas "
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasDistancia.jpg",
-    "texto": "imgAcropolis2 "
+    "imagenes": "assets/Atenas/2.jpg",
+    "texto": "imgAtenas2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasMirador.jpg",
-    "texto": " imgAcropolis3"
+    "imagenes": "assets/Atenas/3.jpg",
+    "texto": " imgAtenas3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasde atras.jpg",
-    "texto": " imgAcropolis4"
+    "imagenes": "assets/Atenas/4.jpg",
+    "texto": " imgAtenas4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasguia.jpg",
-    "texto": " imgAcropolis5"
+    "imagenes": "assets/Atenas/5.jpg",
+    "texto": " imgAtenas5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenaslugar.jpg",
-    "texto": " imgAcropolis6"
+    "imagenes": "assets/Atenas/6.jpg",
+    "texto": " imgAtenas6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasnoche.jpg",
-    "texto": "imgAcropolis7 "
+    "imagenes": "assets/Atenas/7.jpg",
+    "texto": "imgAtenas7 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasotro.jpg",
-    "texto": "imgAcropolis8 "
+    "imagenes": "assets/Atenas/8.jpg",
+    "texto": "imgAtenas8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasPerspectiva.jpg",
-    "texto": " imgAcropolis9"
+    "imagenes": "assets/Atenas/9.jpg",
+    "texto": " imgAtenas9"
   },
   {
     "titulo": "",
-    "imagenes": "assets/AcropolisAtenasselfie.jpg",
-    "texto": "imgAcropolis10"
+    "imagenes": "assets/Atenas/10.jpg",
+    "texto": "imgAtenas10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneiro.jpg'",
-    "texto": "imgBrazil1"
+    "imagenes": "assets/RioDeJaneiro/1.jpg",
+    "texto": "imgRioDeJaneiro1"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneirocorso.jpg",
-    "texto": " imgBrazil2"
+    "imagenes": "assets/RioDeJaneiro/2.jpg",
+    "texto": " imgRioDeJaneiro2"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneiro3.jpg'",
-    "texto": " imgBrazil3"
+    "imagenes": "assets/RioDeJaneiro/3.jpg",
+    "texto": " imgRioDeJaneiro3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneiro4.jpg''",
-    "texto": " imgBrazil4"
+    "imagenes": "assets/RioDeJaneiro/4.jpg",
+    "texto": " imgRioDeJaneiro4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneiro5.jpg'",
-    "texto": " imgBrazil5"
+    "imagenes": "assets/RioDeJaneiro/5.jpg",
+    "texto": " imgRioDeJaneiro5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/RiodejaneiroEscaleras.jpg'",
-    "texto": " imgBrazil6"
+    "imagenes": "assets/RioDeJaneiro/6.jpg",
+    "texto": " imgRioDeJaneiro6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneirotiendas.jpg",
-    "texto": " imgBrazil7"
+    "imagenes": "assets/RioDeJaneiro/7.jpg",
+    "texto": " imgRioDeJaneiro7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneirolugar.png'",
-    "texto": "imgBrazil8 "
+    "imagenes": "assets/RioDeJaneiro/8.png",
+    "texto": "imgRioDeJaneiro8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Riodejaneiromontaña.jpg",
-    "texto": " imgBrazil9"
+    "imagenes": "assets/RioDeJaneiro/9.jpg",
+    "texto": " imgRioDeJaneiro9"
   },
   {
     "titulo": "",
-    "imagenes": "assets/CristoRedentor3.jpg'",
-    "texto": " imgBrazil10"
+    "imagenes": "assets/RioDeJaneiro/10.jpg",
+    "texto": " imgRioDeJaneiro10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machu Picchu.jpg'",
-    "texto": " imgPeru1"
+    "imagenes": "assets/Cusco/1.jpg",
+    "texto": " imgCusco1"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machu Picchu.Vista3.jpg'",
-    "texto": " imgPeru2"
+    "imagenes": "assets/Cusco/2.jpg",
+    "texto": " imgCusco2"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichu.jpg'",
-    "texto": " imgPeru3"
+    "imagenes": "assets/Cusco/3.jpg",
+    "texto": " imgCusco3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichucabras.jpg'",
-    "texto": " imgPeru4"
+    "imagenes": "assets/Cusco/4.jpg",
+    "texto": " imgCusco4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichuvista6.jpg",
-    "texto": "imgPeru5 "
+    "imagenes": "assets/Cusco/5.jpg",
+    "texto": "imgCusco5 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichucaminito.jpg",
-    "texto": "imgPeru6 "
+    "imagenes": "assets/Cusco/6.jpg",
+    "texto": "imgCusco6 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichucirrculo.jpg",
-    "texto": " imgPeru7"
+    "imagenes": "assets/Cusco/7.jpg",
+    "texto": " imgCusco7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichusantuario.jpg",
-    "texto": "imgPeru8 "
+    "imagenes": "assets/Cusco/8.jpg",
+    "texto": "imgCusco8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichupiedra.jpg",
-    "texto": "imgPeru9 "
+    "imagenes": "assets/Cusco/9.jpg",
+    "texto": "imgCusco9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Machupichuroto.webp",
-    "texto": "imgPeru10 "
+    "imagenes": "assets/Cusco/10.webp",
+    "texto": "imgCusco10 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Monte Fuji CASAS.jpg'",
+    "imagenes": "assets/Tokio/1.jpg'",
     "texto": "imgTokio1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Monte fuji Isla.jpg'",
+    "imagenes": "assets/Tokio/2.jpg'",
     "texto": "imgTokio2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MontefujipuntaVolcan.jpg",
+    "imagenes": "assets/Tokio/3.jpg",
     "texto": " imgTokio3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MonteFuji.jpg",
+    "imagenes": "assets/Tokio/4.jpg",
     "texto": " imgTokio4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MontefujiCasita.jpg",
+    "imagenes": "assets/Tokio/5.jpg",
     "texto": " imgTokio5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MonteFujiVolcan.jpg'",
+    "imagenes": "assets/Tokio/6.jpg'",
     "texto": " imgTokio6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/MonteFujicosoraro.jpeg",
+    "imagenes": "assets/Tokio/7.jpg",
     "texto": " imgTokio7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/Montefujipersonas.jpg'",
+    "imagenes": "assets/Tokio/8.jpg'",
     "texto": "imgTokio8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Montefujipersonas2.jpg",
+    "imagenes": "assets/Tokio/9.jpg",
     "texto": "imgTokio9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/MontefujiVista.jpg",
+    "imagenes": "assets/Tokio/10.jpg",
     "texto": " imgTokio10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindey.jpg",
-    "texto": "imgAustralia1 "
+    "imagenes": "assets/Sidney/1.jpg",
+    "texto": "imgSidney1 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeyarte.jpg'",
-    "texto": "imgAustralia2 "
+    "imagenes": "assets/Sidney/2.jpg'",
+    "texto": "imgSidney2 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeyMirador.jpg",
-    "texto": " imgAustralia3"
+    "imagenes": "assets/Sidney/3.jpg",
+    "texto": " imgSidney3"
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeyMonte.jpg",
-    "texto": " imgAustralia4"
+    "imagenes": "assets/Sidney/4.jpg",
+    "texto": " imgSidney4"
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeynoche.jpg",
-    "texto": " imgAustralia5"
+    "imagenes": "assets/Sidney/5.jpg",
+    "texto": " imgSidney5"
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeyplaya2.jpg",
-    "texto": "imgAustralia6 "
+    "imagenes": "assets/Sidney/6.jpg",
+    "texto": "imgSidney6 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeypordentro.jpg.crdownload",
-    "texto": " imgAustralia7"
+    "imagenes": "assets/Sidney/7.jpg",
+    "texto": " imgSidney7"
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeyPuente.jpg",
-    "texto": " imgAustralia8"
+    "imagenes": "assets/Sidney/8.jpg",
+    "texto": " imgSidney8"
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeyrestauranes.gif",
-    "texto": " imgAustralia9"
+    "imagenes": "assets/Sidney/9.gif",
+    "texto": " imgSidney9"
   },
   {
     "titulo": "",
-    "imagenes": "assets/operadesindeyRio.jpg",
-    "texto": " imgAustralia10"
+    "imagenes": "assets/Sidney/10.jpg",
+    "texto": " imgSidney10"
   },
   {
     "titulo": "",
-    "imagenes": "assets/disneyland10.jpg",
-    "texto": "Disneyland1"
+    "imagenes": "assets/Florida/1.jpg",
+    "texto": "imgFlorida1"
   },
   {
     "titulo": "",
-    "imagenes": "assets/disneyland11.jpg",
-    "texto": " Disneyland2"
+    "imagenes": "assets/Florida/2.jpg",
+    "texto": " imgFlorida2"
   },
   {
     "titulo": "",
-    "imagenes": "assets/disneyland3.jpg",
-    "texto": "Disneyland3 "
+    "imagenes": "assets/Florida/3.jpg",
+    "texto": "imgFlorida3 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/disneyland6.jpg",
-    "texto": "Disneyland4 "
+    "imagenes": "assets/Florida/4.jpg",
+    "texto": "imgFlorida4 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Disneylandmicky.jpg",
-    "texto": "Disneyland5 "
+    "imagenes": "assets/Florida/5.jpg",
+    "texto": "imgFlorida5 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/disneyland9.jpg",
-    "texto": " Disneyland6"
+    "imagenes": "assets/Florida/6.jpg",
+    "texto": " imgFlorida6"
   },
   {
     "titulo": "",
-    "imagenes": "assets/disneylandFuegod.jpg",
-    "texto": "Disneyland7 "
+    "imagenes": "assets/Florida/7.jpg",
+    "texto": "imgFlorida7 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/disneylandpersonajes.jpg",
-    "texto": "Disneyland8 "
+    "imagenes": "assets/Florida/8.jpg",
+    "texto": "imgFlorida8 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Disneyland2.jpg",
-    "texto": "Disneyland9 "
+    "imagenes": "assets/Florida/9.jpg",
+    "texto": "imgFlorida9 "
   },
   {
     "titulo": "",
-    "imagenes": "assets/Disneylandatracciones.jpg",
-    "texto": "Disneyland10 "
+    "imagenes": "assets/Florida/10.jpg",
+    "texto": "imgFlorida10 "
   }
 ]

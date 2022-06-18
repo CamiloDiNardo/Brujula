@@ -1,20 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  Header,
-  Footer,
-  PoliticasDeCookies,
-  Formulario,
-  WppFlotante,
-} from '../componentes';
+import { HeaderLinks, PoliticasDeCookies, Formulario } from '../componentes';
 const PoliticaDeCookies = (props) => {
   return (
     <div>
-      <Header />
-      <WppFlotante />
+      <HeaderLinks />
       <PoliticasDeCookies />
       <Formulario />
-      <Footer />
     </div>
   );
 };

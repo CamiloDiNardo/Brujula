@@ -1,7 +1,6 @@
 import ApiMD from './ApiMD/ApiMD';
 import BotonFormulario from './BotonFormulario/BotonFormulario';
 import BotonHamburgesa from './BotonHamburguesa/BotonHamburguesa';
-import BotonMD from './BotonMD/BotonMD';
 import BotonVerTodos from './BotonVerTodos/BotonVerTodos';
 import Cards from './Cards/Cards';
 import CardsVerTodos from './CardsVerTodos/CardsVerTodos';
@@ -27,8 +26,8 @@ import Preloader from './Preloader/Preloader';
 import Slider from './Slider/Slider';
 import Video from './Video/Video';
 import WppFlotante from './WppFlotante/WppFlotante';
-import MapInfoCards from './MapInfoCards/MapInfoCards';
 import MapCardsVerTodos from './MapCardsVerTodos/MapCardsVerTodos';
+import HeaderLinks from './HeaderLinks/HeaderLinks';
 export {
   ApiMD,
   FlotaTexto,
@@ -37,7 +36,6 @@ export {
   MapFlotaCaracteristicas,
   BotonFormulario,
   BotonHamburgesa,
-  BotonMD,
   BotonVerTodos,
   Cards,
   CardsVerTodos,
@@ -59,6 +57,6 @@ export {
   Slider,
   Video,
   WppFlotante,
-  MapInfoCards,
   MapCardsVerTodos,
+  HeaderLinks,
 };

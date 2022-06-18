@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import {
   MapCardsVerTodos,
   Header,
-  Footer,
   Formulario,
   WppFlotante,
 } from '../componentes';
@@ -19,7 +18,6 @@ const VerTodos = (props) => {
       <WppFlotante />
       <MapCardsVerTodos />
       <Formulario />
-      <Footer />
     </div>
   );
 };

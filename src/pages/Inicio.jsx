@@ -7,7 +7,6 @@ import {
   Slider,
   ApiMD,
   Formulario,
-  Footer,
   WppFlotante,
   CartelCookies,
 } from '../componentes';
@@ -28,7 +27,6 @@ const Inicio = () => {
       <Slider />
       <ApiMD />
       <Formulario />
-      <Footer />
     </div>
   );
 };

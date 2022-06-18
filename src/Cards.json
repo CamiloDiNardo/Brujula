@@ -70,7 +70,7 @@
     "alternativo": "Madrid"
   },
   {
-    "ciudad": "ciudad Panama ",
+    "ciudad": "Panama",
     "pais": "Panama",
     "valor": "U$D1700",
     "max": "25°",
@@ -80,7 +80,7 @@
     "alternativo": "Panama"
   },
   {
-    "ciudad": "Lago Bled ",
+    "ciudad": "Bled",
     "pais": "Eslovenia",
     "valor": "U$D2000",
     "max": "40°",
@@ -100,7 +100,7 @@
     "alternativo": "Rio De Janeiro"
   },
   {
-    "ciudad": "Machu Picchu ",
+    "ciudad": "Cusco",
     "pais": "Peru",
     "valor": "U$D2000",
     "max": "40°",
@@ -140,7 +140,7 @@
     "alternativo": "Sidney"
   },
   {
-    "ciudad": "Paris",
+    "ciudad": "Florida",
     "pais": "Francia",
     "valor": "U$D6000",
     "max": "28°",

@@ -1,17 +1,12 @@
-import React from 'react';
-import { BotonMD } from '../../componentes';
+import React, { useState } from 'react';
 import './ApiMD.css';
 const ApiMD = () => {
-  // API The Movie Database.
-  // Como puedo mejorarlo? deberia hacerlo en 2 componentes distintos?
+  // no hace falta agregarle useState.
+  const [pagina, setPagina] = useState(1); // useState para la paginacion.
   const CargarMovieDatabase = async () => {
     try {
       const Respuesta = await fetch(
-        `https://api.themoviedb.org/3/movie/popular?api_key=692b6374a6d6b8a7217301e9db3ad2bf&language=es-MX&page=${
-          (
-            <BotonMD /> // aca decia paginas, funcionara?
-          )
-        }`
+        `https://api.themoviedb.org/3/movie/popular?api_key=692b6374a6d6b8a7217301e9db3ad2bf&language=es-MX&page=${pagina}` // Aca va pagina q es la pagina 1 (que es la que va a cargar por defecto la api)
       );
       console.log(Respuesta, 'promesa');
       if (Respuesta.status === 200) {
@@ -36,7 +31,6 @@ const ApiMD = () => {
       console.log(error);
     }
   };
-
   CargarMovieDatabase(); // Como reemplazo esto version react?
   return (
     // Api de peliculas MoveDatabase
@@ -49,9 +43,21 @@ const ApiMD = () => {
         className='MovieDatabase'
         id='MovieDatabase'
         data-aos='fade-up'></div>
-      <BotonMD />
+      <div // Los Botones los hacemos directamente aca.
+        id='botonesContenedor'
+        className='ContenedorBotonForm ContenedorBotonForm--modificador'>
+        <button // Si pagina es mayor a 1 entonces a la pagina le restamos 1
+          className='Boton__Api ContenedorBotonForm__boton--modificador'
+          onClick={() => pagina > 1 && setPagina(pagina - 1)}>
+          Volver
+        </button>
+        <button // si estamos en una pagina < 1000 entonces sumamos 1 a la pag
+          className='Boton__Api ContenedorBotonForm__boton--modificador'
+          onClick={() => pagina < 1000 && setPagina(pagina + 1)}>
+          Siguiente
+        </button>
+      </div>
     </div>
   );
-};
-
+}; // A veces la primera pagina de la app no funciona y no carga eso es por el aos pero no le encuentro solucion
 export default ApiMD;

@@ -2,15 +2,18 @@
 .ContenedorMaps {
   position: relative;
   left: 160px;
-  max-width: 1000px;
+  max-width: 1000px; /* Aca kta me corrigio algo del css fijate si funciona. xq si se ve bien al pedo*/
   justify-content: center;
   margin-top: 20px;
   height: 600px;
 }
 .Maps {
   width: 100%;
+  width: 1200px; /* aca pusimos lo del mapa. desp si le queres cambiar el responsive hacelo.*/
   height: 600px;
+  border: 0;
 }
+
 @media screen and (max-width: 915px) {
   .ContenedorMaps {
     position: relative;

@@ -1,11 +1,6 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import {
-  Footer,
-  Formulario,
-  WppFlotante,
-  Header,
-} from '../componentes';
+import { Formulario, WppFlotante, Header } from '../componentes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 const Contacto = (props) => {
@@ -17,7 +12,6 @@ const Contacto = (props) => {
       <Header />
       <WppFlotante />
       <Formulario />
-      <Footer />
     </div>
   );
 };

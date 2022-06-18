@@ -1,21 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import {
-  Header,
-  Footer,
-  PoliticasDePrivacidad,
-  WppFlotante,
-  Formulario,
-} from '../componentes';
+import { HeaderLinks, PoliticasDePrivacidad, Formulario } from '../componentes';
 
 const PoliticaDePrivacidad = () => {
   return (
     <div>
-      <Header />
-      <WppFlotante />
+      <HeaderLinks />
       <PoliticasDePrivacidad />
       <Formulario />
-      <Footer />
     </div>
   );
 };

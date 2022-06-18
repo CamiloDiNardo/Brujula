@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BotonHamburgesa } from '../../componentes';
 import Logo from '../../assets/brujulacolorida.jpg';
-import './Header.css';
-const Header = () => {
+import '../HeaderLinks/HeaderLinks.css';
+const HeaderLinks = () => {
   return (
     <header>
       <nav>
@@ -13,20 +13,14 @@ const Header = () => {
           </Link>
           <BotonHamburgesa />
           <div className='links'>
-            <Link to='/' className='links__a'>
-              Inicio
+            <Link to='/PoliticasDeCookies' className='links__a2'>
+              Politica De Cookies
             </Link>
-            <Link to='/Empresa' className='links__a'>
-              Empresa
+            <Link to='/PoliticasDePrivacidad' className='links__a2'>
+              Politica De Privacidad
             </Link>
-            <Link to='/Destinos' className='links__a'>
-              ¡Destinos!
-            </Link>
-            <Link to='/Contacto' className='links__a'>
-              Contacto
-            </Link>
-            <Link to='/Flota' className='links__a'>
-              Flota
+            <Link to='/CondicionesGenerales' className='links__a2'>
+              Condiciones Generales
             </Link>
           </div>
         </div>
@@ -34,4 +28,7 @@ const Header = () => {
     </header>
   );
 };
-export default Header;
+
+HeaderLinks.propTypes = {};
+
+export default HeaderLinks;

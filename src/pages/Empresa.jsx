@@ -5,7 +5,6 @@ import {
   Nosotros,
   GaleriaHexagonal,
   Formulario,
-  Footer,
 } from '../componentes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -20,7 +19,6 @@ const Empresa = (props) => {
       <Nosotros />
       <GaleriaHexagonal />
       <Formulario />
-      <Footer />
     </div>
   );
 };

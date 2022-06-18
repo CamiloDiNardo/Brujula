@@ -1,10 +1,5 @@
 import React, { useEffect } from 'react';
-import {
-  Header,
-  Footer,
-  Formulario,
-  CondicionesGenerales,
-} from '../componentes';
+import { HeaderLinks, Formulario, CondicionesGenerales } from '../componentes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 const CondicionesGeneralesDeTransporte = (props) => {
@@ -13,10 +8,9 @@ const CondicionesGeneralesDeTransporte = (props) => {
   }, []);
   return (
     <div>
-      <Header />
+      <HeaderLinks />
       <CondicionesGenerales />
       <Formulario />
-      <Footer />
     </div>
   );
 };

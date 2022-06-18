@@ -16,17 +16,26 @@ const MapCardsVerTodos = () => {
             { ciudad, pais, valor, max, min, linkeado, imagenes, alternativo },
             index
           ) => (
-            <CardsVerTodos
-              ciudad={ciudad}
-              pais={pais}
-              valor={valor}
-              max={max}
-              min={min}
-              linkeado={linkeado}
-              imagenes={imagenes}
-              alternativo={alternativo}
-              key={index}
-            />
+            <>
+              <CardsVerTodos
+                ciudad={ciudad}
+                pais={pais}
+                valor={valor}
+                max={max}
+                min={min}
+                linkeado={linkeado}
+                imagenes={imagenes}
+                alternativo={alternativo}
+                key={index}
+              />
+              {index === 2 && (
+                <h1
+                  style={{ width: '100%' }}
+                  className='Titulo Titulo--modificador'>
+                  Más Modelos
+                </h1>
+              )}
+            </> // ASI AGREGAMOS EL TITULO DESPUES DE LA 3ER CARD (OSEA INDICE 2) X eso puso si index === 2. lo q no se es si el width 100% ese se puede sacar.. xq ya estan las clases y no haria falta, desp probalo
           )
         )}
       </div>

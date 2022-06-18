@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import {
   Header,
   Formulario,
-  Footer,
   WppFlotante,
   MapCarrousell3D,
 } from '../componentes';
@@ -22,7 +21,6 @@ const Destinos = (props) => {
       </h1>
       <MapCarrousell3D />
       <Formulario />
-      <Footer />
     </div>
   );
 };
