@@ -2,7 +2,7 @@ import React from 'react';
 import './Carrousell3D.css';
 // Componente Reutilizable, para esto no tiene que tener valores dentro, solo la estructura HTML
 const Carrousell3D = ({ texto, imagenes, nombre }) => {
-  console.log(imagenes, 'estas son las imagenes de china');
+  console.log(imagenes, texto, nombre, 'estas son las imagenes de china');
   return (
     <div className='Carrousel3DContenedor__div'>
       <figure className='Carrousel3DContenedor__figure'>

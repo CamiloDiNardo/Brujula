@@ -3,7 +3,6 @@ import DatosCards from '../../Cards.json';
 import { CardsVerTodos } from '../../componentes';
 const MapCardsVerTodos = () => {
   return (
-    // <h1 className='Titulo' data-aos='fade-up'>Mas Modelos </h1> como le pongo esto en medio de las 3 cards que tiene un map de por si?
     <div>
       <h1 className='Titulo Titulo--modificador' data-aos='fade-up'>
         Modelos Añadidos Recientemente
@@ -28,13 +27,13 @@ const MapCardsVerTodos = () => {
                 alternativo={alternativo}
                 key={index}
               />
-              {index === 2 && (
+              {index === 2 &&
                 <h1
                   style={{ width: '100%' }}
                   className='Titulo Titulo--modificador'>
                   Más Modelos
                 </h1>
-              )}
+              }
             </> // ASI AGREGAMOS EL TITULO DESPUES DE LA 3ER CARD (OSEA INDICE 2) X eso puso si index === 2. el width lo ponemos para no hacer un css x 1 clase XD
           )
         )}

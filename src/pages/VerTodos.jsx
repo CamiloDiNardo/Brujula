@@ -7,7 +7,7 @@ import {
 } from '../componentes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-const VerTodos = (props) => {
+const VerTodos = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, once: true });
   }, []);

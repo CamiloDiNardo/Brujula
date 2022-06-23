@@ -6,7 +6,7 @@
     "max": "40°",
     "min": "25°",
     "linkeado": "Pekin",
-    "imagenes": "assets/MurallaChina.jpg",
+    "imagenes": "assets/CardsPorFuera/Pekin.jpg",
     "alternativo": "Pekin"
   },
   {
@@ -15,9 +15,9 @@
     "valor": "U$D6000",
     "max": "34°",
     "min": "20°",
-    "linkeado": "Pekin",
-    "imagenes": "assets/TorreIfel.jpg",
-    "alternativo": "Pekin"
+    "linkeado": "Paris",
+    "imagenes": "assets/CardsPorFuera/Francia.jpg",
+    "alternativo": "Francia"
   },
   {
     "ciudad": "Roma",
@@ -25,8 +25,8 @@
     "valor": "U$D1500",
     "max": "35°",
     "min": "10°",
-    "linkeado": "ColiseoDeRoma",
-    "imagenes": "assets/ColiseodeRoma.jpg",
+    "linkeado": "Roma",
+    "imagenes": "assets/CardsPorFuera/Roma.jpg",
     "alternativo": "Roma"
   },
   {
@@ -36,7 +36,7 @@
     "max": "-10°",
     "min": "-50°",
     "linkeado": "Calafate",
-    "imagenes": "assets/hielo-600x336.jpg",
+    "imagenes": "assets/CardsPorFuera/Calafate.jpg",
     "alternativo": "Calafate"
   },
   {
@@ -46,7 +46,7 @@
     "max": "20°",
     "min": "-10°",
     "linkeado": "Bariloche",
-    "imagenes": "assets/Barilocheconnieve-680x680.jpg",
+    "imagenes": "assets/CardsPorFuera/Bariloche.jpg",
     "alternativo": "Bariloche"
   },
   {
@@ -56,7 +56,7 @@
     "max": "40°",
     "min": "30°",
     "linkeado": "Palolem",
-    "imagenes": "assets/cabaña con playa-666x302.jpg",
+    "imagenes": "assets/CardsPorFuera/Palolem.jpg",
     "alternativo": "Palolem"
   },
   {
@@ -66,7 +66,7 @@
     "max": "30°",
     "min": "15°",
     "linkeado": "Madrid",
-    "imagenes": "assets/paisajedemontañas-738x274.jpg",
+    "imagenes": "assets/CardsPorFuera/Madrid.jpg",
     "alternativo": "Madrid"
   },
   {
@@ -76,7 +76,7 @@
     "max": "25°",
     "min": "10°",
     "linkeado": "Panama",
-    "imagenes": "assets/Panama-1750x800.jpg",
+    "imagenes": "assets/CardsPorFuera/Panama.jpg",
     "alternativo": "Panama"
   },
   {
@@ -86,18 +86,18 @@
     "max": "40°",
     "min": "20°",
     "linkeado": "Bled",
-    "imagenes": "assets/parejaencanoa-534x378.jpg",
+    "imagenes": "assets/CardsPorFuera/Bled.jpg",
     "alternativo": "Bled"
   },
   {
-    "ciudad": "Rio De Janeiro ",
+    "ciudad": "Rio",
     "pais": "Brazil",
     "valor": "U$D1100",
     "max": "38°",
     "min": "20°",
-    "linkeado": "Rio De Janeiro",
-    "imagenes": "assets/CristoRedentor3.jpg",
-    "alternativo": "Rio De Janeiro"
+    "linkeado": "Rio",
+    "imagenes": "assets/CardsPorFuera/Rio.jpg",
+    "alternativo": "Rio"
   },
   {
     "ciudad": "Cusco",
@@ -106,7 +106,7 @@
     "max": "40°",
     "min": "23°",
     "linkeado": "Cusco",
-    "imagenes": "assets/Machu Picchu.jpg",
+    "imagenes": "assets/CardsPorFuera/Cusco.jpg",
     "alternativo": "Cusco"
   },
   {
@@ -116,7 +116,7 @@
     "max": "30°",
     "min": "25°",
     "linkeado": "Tokio",
-    "imagenes": "assets/MonteFuji.jpg",
+    "imagenes": "assets/CardsPorFuera/Tokio.jpg",
     "alternativo": "Tokio"
   },
   {
@@ -126,7 +126,7 @@
     "max": "33°",
     "min": "20°",
     "linkeado": "Atenas",
-    "imagenes": "assets/Acropolis de Atenas.jpg",
+    "imagenes": "assets/CardsPorFuera/Atenas.jpg",
     "alternativo": "Atenas"
   },
   {
@@ -136,7 +136,7 @@
     "max": "30°",
     "min": "23°",
     "linkeado": "Sidney",
-    "imagenes": "assets/operadesidney.jpg",
+    "imagenes": "assets/CardsPorFuera/Sidney.jpg",
     "alternativo": "Sidney"
   },
   {
@@ -146,7 +146,7 @@
     "max": "28°",
     "min": "23°",
     "linkeado": "Florida",
-    "imagenes": "assets/Disneyland2.jpg",
+    "imagenes": "assets/CardsPorFuera/Florida.jpg",
     "alternativo": "Florida"
   }
 ]

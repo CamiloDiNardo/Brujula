@@ -6,16 +6,17 @@ import {
   Navigate,
 } from 'react-router-dom';
 import Preloader from './componentes/Preloader/Preloader';
-const Footer = lazy(() => import('./componentes/Footer/Footer'));
 const Inicio = lazy(() => import('../src/pages/Inicio.jsx'));
 const Empresa = lazy(() => import('../src/pages/Empresa'));
 const Destinos = lazy(() => import('../src/pages/Destinos'));
 const FlotaAvion = lazy(() => import('../src/pages/FlotaAvion'));
 const Contacto = lazy(() => import('../src/pages/Contacto'));
+const Ciudad = lazy(() => import('../src/pages/Ciudad'));
+const Footer = lazy(() => import('./componentes/Footer/Footer'));
 const CondicionesGeneralesDeTransporte = lazy(() =>
   import('../src/pages/CondicionesGeneralesDeTransporte')
 );
-const Ciudad = lazy(() => import('../src/pages/Ciudad'));
+
 const PoliticasDeCookies = lazy(() => import('../src/pages/PoliticaDeCookies'));
 const PoliticasDePrivacidad = lazy(() =>
   import('../src/pages/PoliticaDePrivacidad')
@@ -34,8 +35,6 @@ const App = () => {
             <Route path='/Flota' element={<FlotaAvion />} />
             <Route path='/Contacto' element={<Contacto />} />
             <Route path='/:ciudad' element={<Ciudad />} />
-            <Route path='/VerTodos' element={<VerTodos />} />
-            <Route path='/VerTodos/:ciudad' element={<Ciudad />} />
             <Route
               path='/PoliticasDeCookies'
               element={<PoliticasDeCookies />}
@@ -48,6 +47,8 @@ const App = () => {
               path='/PoliticasDePrivacidad'
               element={<PoliticasDePrivacidad />}
             />
+            <Route path='/VerTodos' element={<VerTodos />} />
+            <Route path='/VerTodos/:ciudad' element={<Ciudad />} />
             <Route path='*' element={<Navigate replace to='/' />} />
           </Routes>
           <Footer />

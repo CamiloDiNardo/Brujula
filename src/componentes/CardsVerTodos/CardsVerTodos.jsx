@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Temperatura from '../../assets/temperature-half-solid.svg';
 import Wifi from '../../assets/wifi-solid.svg';
 const CardsVerTodos = ({
-  // Tuvimos que hacer una estructura aparte y no con la misma de cards.
+  // Tuvimos que hacer una estructura aparte para VerTodos y no pudimos usar la de cards
   ciudad,
   pais,
   valor,
@@ -41,7 +41,5 @@ const CardsVerTodos = ({
     </div>
   );
 };
-
-CardsVerTodos.propTypes = {};
 
 export default CardsVerTodos;

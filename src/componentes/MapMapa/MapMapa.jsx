@@ -2,7 +2,7 @@ import React from 'react';
 import DataMapa from '../../Mapa.json';
 import { Mapa } from '../../componentes';
 // Como Mapeo muchas veces en un mismo lugar? como lo paso una ves mapeado?
-const MapMapa = (props) => {
+const MapMapa = () => {
   return (
     <div className='ContenedorMaps' data-aos='fade-up'>
       {DataMapa.map(
