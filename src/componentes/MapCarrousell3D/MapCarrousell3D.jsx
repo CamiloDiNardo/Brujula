@@ -3,7 +3,7 @@ import DatosCarrousell3D from '../../Carrousell3D.json';
 import { Carrousell3D } from '../../componentes';
 const MapCarrousell3D = () => {
   // como hago muchos slice y los pongo en una estructura de carrousell?
-  const CarrousellPekin = DatosCarrousell3D.slice(0, 10);
+  /* const CarrousellPekin = DatosCarrousell3D.slice(0, 10);
   const CarrousellTorreIffel = DatosCarrousell3D.slice(10, 20);
   const CarrousellRoma = DatosCarrousell3D.slice(20, 30);
   const CarrousellCalafate = DatosCarrousell3D.slice(30, 40);
@@ -32,11 +32,12 @@ const MapCarrousell3D = () => {
   console.log(CarrousellPeru, 'Carrouselpekin');
   console.log(CarrousellTokio, 'Carrouselpekin');
   console.log(CarrousellAustralia, 'Carrouselpekin');
-  console.log(CarrousellDisneyland, 'Carrouselpekin');
+  console.log(CarrousellDisneyland, 'Carrouselpekin'); */
+  console.log(DatosCarrousell3D, 'aca');
   return (
     // Puedo pasarle un {titulo} a el h1? ese vendria de otro map, seria como anidar maps lol
     <div className='Carrousel3DContenedor'>
-      {CarrousellPekin.map(
+      {DatosCarrousell3D.map(
         (
           { imagenes, texto },
           index // Como hago maps de muchos carrouselles en 1 solo? xq hacer muchos maps no seria optimo

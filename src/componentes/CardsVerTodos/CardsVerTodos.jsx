@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Temperatura from '../../assets/temperature-half-solid.svg';
 import Wifi from '../../assets/wifi-solid.svg';
 const CardsVerTodos = ({
+  // Tuvimos que hacer una estructura aparte y no con la misma de cards.
   ciudad,
   pais,
   valor,
@@ -20,7 +21,7 @@ const CardsVerTodos = ({
         src={require(`../../${imagenes}`)}
         alt={alternativo}></img>
       <h1>
-        {ciudad} &#124; {pais}{' '}
+        {ciudad} &#124; {pais}
       </h1>
       <p className='card__p'>
         Desde: <b>{valor}</b>

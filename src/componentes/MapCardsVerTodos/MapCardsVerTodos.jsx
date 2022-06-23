@@ -35,7 +35,7 @@ const MapCardsVerTodos = () => {
                   Más Modelos
                 </h1>
               )}
-            </> // ASI AGREGAMOS EL TITULO DESPUES DE LA 3ER CARD (OSEA INDICE 2) X eso puso si index === 2. lo q no se es si el width 100% ese se puede sacar.. xq ya estan las clases y no haria falta, desp probalo
+            </> // ASI AGREGAMOS EL TITULO DESPUES DE LA 3ER CARD (OSEA INDICE 2) X eso puso si index === 2. el width lo ponemos para no hacer un css x 1 clase XD
           )
         )}
       </div>

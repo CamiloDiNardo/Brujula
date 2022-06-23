@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
 import {
   MapCardsVerTodos,
   Header,
@@ -21,7 +20,5 @@ const VerTodos = (props) => {
     </div>
   );
 };
-
-VerTodos.propTypes = {};
 
 export default VerTodos;

@@ -5,9 +5,9 @@
     "valor": "U$D5000",
     "max": "40°",
     "min": "25°",
-    "linkeado": "MurallaChina",
+    "linkeado": "Pekin",
     "imagenes": "assets/MurallaChina.jpg",
-    "alternativo": "MurallaChina"
+    "alternativo": "Pekin"
   },
   {
     "ciudad": "Paris",
@@ -15,9 +15,9 @@
     "valor": "U$D6000",
     "max": "34°",
     "min": "20°",
-    "linkeado": "TorreEiffel",
+    "linkeado": "Pekin",
     "imagenes": "assets/TorreIfel.jpg",
-    "alternativo": "TorreIfel"
+    "alternativo": "Pekin"
   },
   {
     "ciudad": "Roma",
@@ -85,9 +85,9 @@
     "valor": "U$D2000",
     "max": "40°",
     "min": "20°",
-    "linkeado": "LagoBled",
+    "linkeado": "Bled",
     "imagenes": "assets/parejaencanoa-534x378.jpg",
-    "alternativo": "LagoBled"
+    "alternativo": "Bled"
   },
   {
     "ciudad": "Rio De Janeiro ",
@@ -95,7 +95,7 @@
     "valor": "U$D1100",
     "max": "38°",
     "min": "20°",
-    "linkeado": "CristoRedentor",
+    "linkeado": "Rio De Janeiro",
     "imagenes": "assets/CristoRedentor3.jpg",
     "alternativo": "Rio De Janeiro"
   },
@@ -105,9 +105,9 @@
     "valor": "U$D2000",
     "max": "40°",
     "min": "23°",
-    "linkeado": "MachuPicchu",
+    "linkeado": "Cusco",
     "imagenes": "assets/Machu Picchu.jpg",
-    "alternativo": "Machu Picchu"
+    "alternativo": "Cusco"
   },
   {
     "ciudad": "Tokio",
@@ -115,7 +115,7 @@
     "valor": "U$D2000",
     "max": "30°",
     "min": "25°",
-    "linkeado": "MonteFiju",
+    "linkeado": "Tokio",
     "imagenes": "assets/MonteFuji.jpg",
     "alternativo": "Tokio"
   },
@@ -125,7 +125,7 @@
     "valor": "U$D3450",
     "max": "33°",
     "min": "20°",
-    "linkeado": "AcropolisDeAtenas",
+    "linkeado": "Atenas",
     "imagenes": "assets/Acropolis de Atenas.jpg",
     "alternativo": "Atenas"
   },
@@ -135,7 +135,7 @@
     "valor": "U$D9999",
     "max": "30°",
     "min": "23°",
-    "linkeado": "OperaDeSidney",
+    "linkeado": "Sidney",
     "imagenes": "assets/operadesidney.jpg",
     "alternativo": "Sidney"
   },
@@ -145,8 +145,8 @@
     "valor": "U$D6000",
     "max": "28°",
     "min": "23°",
-    "linkeado": "Disneyland",
+    "linkeado": "Florida",
     "imagenes": "assets/Disneyland2.jpg",
-    "alternativo": "Paris"
+    "alternativo": "Florida"
   }
 ]

@@ -9,7 +9,7 @@ const Mapa = ({ titulo, mapa }) => {
         src={mapa}
         allowFullScreen=''
         loading='lazy' /* Aca habia un width y un  width='1200' , height='600', style={{ border: '0' }} para el mapa. lo sacamos y lo pusimos en la clase Maps xq pasarlo ahi para darle estilos no esta bueno */
-        referrerpolicy='no-referrer-when-downgrade'></iframe>
+        referrerPolicy='no-referrer-when-downgrade'></iframe>
     </div>
   );
 };
