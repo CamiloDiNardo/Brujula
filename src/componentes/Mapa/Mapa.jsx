@@ -1,5 +1,6 @@
 import React from 'react';
-import './Mapa.css'; // Como hago que el mapa muestre segun la pagina un mapa distinto?
+import './Mapa.css'; // Componente Reutilizable.
+import PropTypes from 'prop-types';
 const Mapa = ({ titulo, mapa }) => {
   return (
     <div className='ContenedorMaps'>
@@ -13,5 +14,8 @@ const Mapa = ({ titulo, mapa }) => {
     </div>
   );
 };
-
+Mapa.propTypes = {
+  titulo: PropTypes.string.isRequired,
+  mapa: PropTypes.string.isRequired,
+};
 export default Mapa;

@@ -1,5 +1,6 @@
 import React from 'react';
 import './FlotaCaracteristicas.css';
+import PropTypes from 'prop-types';
 const FlotaCaracteristicas = ({
   titulo,
   asientos,
@@ -34,4 +35,15 @@ const FlotaCaracteristicas = ({
     </div>
   );
 };
+FlotaCaracteristicas.propTypes = {
+  titulo: PropTypes.string.isRequired,
+  asientos: PropTypes.string.isRequired,
+  largo: PropTypes.string.isRequired,
+  envergadura: PropTypes.string.isRequired,
+  alcance: PropTypes.string.isRequired,
+  cantidad: PropTypes.string.isRequired,
+  texto: PropTypes.string.isRequired,
+  avion: PropTypes.string.isRequired,
+};
+
 export default FlotaCaracteristicas;

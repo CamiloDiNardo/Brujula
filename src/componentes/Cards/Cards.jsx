@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Temperatura from '../../assets/temperature-half-solid.svg';
 import Wifi from '../../assets/wifi-solid.svg';
@@ -40,5 +41,14 @@ const Cards = ({
     </div>
   );
 };
-
+Cards.propTypes = {
+  ciudad: PropTypes.string.isRequired,
+  pais: PropTypes.string.isRequired,
+  valor: PropTypes.string.isRequired,
+  max: PropTypes.string.isRequired,
+  min: PropTypes.string.isRequired,
+  linkeado: PropTypes.string.isRequired,
+  imagenes: PropTypes.string.isRequired,
+  alternativo: PropTypes.string.isRequired,
+};
 export default Cards;

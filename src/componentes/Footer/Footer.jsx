@@ -8,7 +8,7 @@ import YoutubeIcon from '../../assets/youtube-brands.svg';
 import NormasIram from '../../assets/Normas iram.png';
 import DataFiscal from '../../assets/Data fiscal.jpg';
 // el segundo footer tiene que ir con usestate para no mostrarlo.
-const Footer = (props) => {
+const Footer = () => {
   return (
     <footer>
       <div className='ContenedorFooter'>
@@ -147,7 +147,7 @@ const Footer = (props) => {
               src={YoutubeIcon}
               href='https://www.youtube.com/channel/UCKgGLynM7xJz8Mq999srCsg/'
               alt='Youtube'></img>
-          </a>{' '}
+          </a>
           &#124; &nbsp;
           <img
             data-aos='fade-up'
@@ -172,14 +172,12 @@ const Footer = (props) => {
             alt='PoliticaDeCookies'>
             Politica De Cookies
           </Link>
-          &#124; &nbsp;
           <Link
             to='/PoliticasDePrivacidad'
             className='ContenedorFooter__seguinos ContenedorFooter__seguinos--modificador'
             alt='PoliticaDePrivacidad'>
             Politica De Privacidad
           </Link>
-          &#124; &nbsp;
           <Link
             to='/CondicionesGenerales'
             className='ContenedorFooter__seguinos ContenedorFooter__seguinos--modificador'
@@ -191,7 +189,4 @@ const Footer = (props) => {
     </footer>
   );
 };
-
-Footer.propTypes = {};
-
 export default Footer;

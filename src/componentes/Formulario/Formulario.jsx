@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Formulario.css';
 import { BotonFormulario } from '../../componentes';
-const Formulario = (props) => {
+const Formulario = () => {
   return (
     <div className='ContenedorForm' id='formulario' data-aos='fade-up'>
       <form id='form'>
@@ -105,7 +104,4 @@ const Formulario = (props) => {
     </div>
   );
 };
-
-Formulario.propTypes = {};
-
 export default Formulario;

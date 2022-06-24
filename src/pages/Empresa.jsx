@@ -22,7 +22,4 @@ const Empresa = (props) => {
     </div>
   );
 };
-
-Empresa.propTypes = {};
-
 export default Empresa;

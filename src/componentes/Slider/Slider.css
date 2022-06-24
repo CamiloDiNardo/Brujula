@@ -2,12 +2,11 @@
   text-align: center;
   font-size: 60px;
 }
-/*Slider Autodeslizable*/
 .SliderContainer {
   width: 1150px;
   height: 300px;
   position: relative;
-  left: 100px;
+  margin: auto;
 }
 .SliderContainer__img {
   width: 100%;
@@ -35,7 +34,7 @@
 }
 @media screen and (max-width: 915px) {
   .Titulo {
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 25px;
   }
   .SliderContainer {
@@ -48,5 +47,23 @@
     height: 100%;
     box-shadow: 15px 15px 4px rgb(0, 0, 0);
     border-radius: 10px;
+  }
+  .BotonSlider {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    cursor: pointer;
+    border: none;
+  }
+  .BotonSlider1 {
+    position: relative;
+    top: -120px;
+    color: #fff;
+  }
+  .BotonSlider2 {
+    position: relative;
+    top: -120px;
+    left: 330px;
+    color: #fff;
   }
 }

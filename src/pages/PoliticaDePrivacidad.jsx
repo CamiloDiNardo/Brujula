@@ -11,6 +11,4 @@ const PoliticaDePrivacidad = () => {
   );
 };
 
-PoliticaDePrivacidad.propTypes = {};
-
 export default PoliticaDePrivacidad;

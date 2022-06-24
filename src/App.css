@@ -15,7 +15,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 30px;
   text-decoration: none;
 }
-/* Css de la api*/
+/* Css de la api poner esto en la api y probar si funciona*/
 .ContenedorPeliculas {
   text-align: center;
   height: 300px;
@@ -95,7 +95,6 @@ body::-webkit-scrollbar-thumb {
   }
 
   /*Vertodos*/
-
   .contenedorcards--modificador2 {
     height: 5000px;
   }

@@ -12,7 +12,7 @@ const HeaderLinks = () => {
             <img className='brujula__img' src={Logo} alt='Brujula'></img>
           </Link>
           <BotonHamburgesa />
-          <div className='links'>
+          <div className='link'>
             <Link to='/PoliticasDeCookies' className='links__a2'>
               Politica De Cookies
             </Link>
@@ -28,7 +28,4 @@ const HeaderLinks = () => {
     </header>
   );
 };
-
-HeaderLinks.propTypes = {};
-
 export default HeaderLinks;

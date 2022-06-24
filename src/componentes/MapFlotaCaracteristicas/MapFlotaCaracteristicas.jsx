@@ -1,6 +1,6 @@
 import React from 'react';
 import DatosFlota from '../../Flota.json';
-import FlotaCaracteristicas from '../FlotaCaracteristicas/FlotaCaracteristicas';
+import { FlotaCaracteristicas } from '../../componentes';
 
 const MapFlotaCaracteristicas = () => {
   console.log(DatosFlota);

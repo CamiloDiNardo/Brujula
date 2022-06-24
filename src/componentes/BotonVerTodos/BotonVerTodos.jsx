@@ -13,6 +13,4 @@ const BotonVerTodos = () => {
   );
 };
 
-BotonVerTodos.propTypes = {};
-
 export default BotonVerTodos;

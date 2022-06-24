@@ -41,6 +41,7 @@ const Slider = () => {
       <h1 className='Titulo' data-aos='fade-up'>
         ¡vivi una aventura Inolvidable!
       </h1>
+      <br />
       <div className='SliderContainer' data-aos='fade-up'>
         <img
           src={ImgSeleccionada}
@@ -48,16 +49,16 @@ const Slider = () => {
           id='slider'
           className='SliderContainer__img'></img>
         <button className='BotonSlider BotonSlider1' onClick={Resta}>
-          {'>'}
-        </button>
-        <button className='BotonSlider BotonSlider2' onClick={Suma}>
           {'<'}
         </button>
+        <button className='BotonSlider BotonSlider2' onClick={Suma}>
+          {'>'}
+        </button>
       </div>
+      <br />
+      <br />
     </div>
   );
 }; // boton para ir para adelante y para atras
-
-Slider.propTypes = {};
 
 export default Slider;

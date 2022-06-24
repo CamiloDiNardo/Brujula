@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
 import { Formulario, WppFlotante, Header } from '../componentes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';

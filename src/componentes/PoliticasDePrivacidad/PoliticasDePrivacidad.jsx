@@ -1,6 +1,6 @@
 import React from 'react';
 import './PoliticasDePrivacidad.css';
-const PoliticasDePrivacidad = (props) => {
+const PoliticasDePrivacidad = () => {
   return (
     <div>
       <p className='Legales'>

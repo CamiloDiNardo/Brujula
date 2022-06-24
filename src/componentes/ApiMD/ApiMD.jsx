@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './ApiMD.css';
 const ApiMD = () => {
-  // no hace falta agregarle useState.
   const [pagina, setPagina] = useState(1); // useState para la paginacion.
   const CargarMovieDatabase = async () => {
     try {
@@ -19,7 +18,7 @@ const ApiMD = () => {
 <h3 class="titulo">${Peliculas.title}</h3>
 </div>`;
         });
-        document.getElementById('MovieDatabase').innerHTML = info; // como reemplazo esto?
+        document.getElementById('MovieDatabase').innerHTML = info; // como reemplazo el innerhtml xq da erorr en consola?
       } else if (Respuesta.status === 401) {
         console.log('No hay conexion a internet');
       } else if (Respuesta.status === 404) {
@@ -31,7 +30,7 @@ const ApiMD = () => {
       console.log(error);
     }
   };
-  CargarMovieDatabase(); // Como reemplazo esto version react?
+  CargarMovieDatabase();
   return (
     // Api de peliculas MoveDatabase
     <div>
@@ -59,5 +58,5 @@ const ApiMD = () => {
       </div>
     </div>
   );
-}; // A veces la primera pagina de la app no funciona y no carga eso es por el aos pero no le encuentro solucion
+};
 export default ApiMD;

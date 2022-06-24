@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import './PoliticasDeCookies.css';
-const PoliticasDeCookies = (props) => {
+const PoliticasDeCookies = () => {
   return (
     <div>
       <p className='Legales'>

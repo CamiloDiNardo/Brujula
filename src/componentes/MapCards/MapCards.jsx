@@ -13,12 +13,12 @@ const MapCards = () => {
       <div className='contenedorcards' data-aos='fade-up'>
         {NuevosDatos.map(
           // Mapeamos el array modificado con slice
-          // si hay datos en Objetos , entonces se hace el map. x eso se usa Objetos &&
+          // podriamos agregarle Nuevosdatos && NuevosDatos.map que verifica que alla datos en NuevosDatos antes de mapearlo
           (
             { ciudad, pais, valor, max, min, linkeado, imagenes, alternativo },
             index // ponemos todos los valores del json. y el index afuera q es el 0,1,2etc.
           ) => (
-            <Cards // para que se hace esta parte?
+            <Cards // Le Pasamos todas las propiedades mapeadas a el componente Cards, sino hacemos esto no le llegan y no los puede usar.(creo q es x eso q hacemos esto)
               ciudad={ciudad}
               pais={pais}
               valor={valor}

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 // si bien puedo hacerlo con un json decidi hacerlo de esta manera mas basica para practicar y ahorrar algo de tiempo
 import './GaleriaHexagonal.css';
 import Hotel1 from '../../assets/hotel complejo abierto-2400x1800.jpg';
@@ -9,7 +8,7 @@ import Hotel4 from '../../assets/hotel lujoso con lamborgini-550x366.jpg';
 import Hotel5 from '../../assets/hotelbello-1600x1200.jpg';
 import Hotel6 from '../../assets/hoteles-originales-en-españa.jpg';
 import Hotel7 from '../../assets/hotel lujoso orlando.jpg';
-const GaleriaHexagonal = (props) => {
+const GaleriaHexagonal = () => {
   return (
     <div>
       <br />
@@ -64,7 +63,4 @@ const GaleriaHexagonal = (props) => {
     </div>
   );
 };
-
-GaleriaHexagonal.propTypes = {};
-
 export default GaleriaHexagonal;

@@ -10,7 +10,7 @@ import {
   WppFlotante,
   CartelCookies,
 } from '../componentes';
-import Aos from 'aos'; // Donde va esto? funciona solo con 1 solo mepa q es configuracion global
+import Aos from 'aos'; // funciona solo con 1 solo mepa q es configuracion global pero x las dudas lo ponemos en todas las pagina.
 import 'aos/dist/aos.css';
 const Inicio = () => {
   useEffect(() => {
@@ -30,7 +30,4 @@ const Inicio = () => {
     </div>
   );
 };
-
-Inicio.propTypes = {};
-
 export default Inicio;

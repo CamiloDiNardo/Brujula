@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BotonHamburgesa } from '../../componentes';
 import Logo from '../../assets/brujulacolorida.jpg';
+import BotonHamburguesa from '../BotonHamburguesa/BotonHamburguesa';
 import './Header.css';
 const Header = () => {
   return (
@@ -11,8 +11,8 @@ const Header = () => {
           <Link to='/'>
             <img className='brujula__img' src={Logo} alt='Brujula'></img>
           </Link>
-          <BotonHamburgesa />
-          <div className='links'>
+          <BotonHamburguesa />
+          <div className='link'>
             <Link to='/' className='links__a'>
               Inicio
             </Link>

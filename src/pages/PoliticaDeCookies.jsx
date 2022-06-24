@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { HeaderLinks, PoliticasDeCookies, Formulario } from '../componentes';
-const PoliticaDeCookies = (props) => {
+const PoliticaDeCookies = () => {
   return (
     <div>
       <HeaderLinks />
@@ -10,7 +9,4 @@ const PoliticaDeCookies = (props) => {
     </div>
   );
 };
-
-PoliticaDeCookies.propTypes = {};
-
 export default PoliticaDeCookies;

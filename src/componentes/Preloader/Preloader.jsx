@@ -1,7 +1,7 @@
 import React from 'react';
 import './Preloader.css';
 import Gift from '../../assets/load-gif.gif';
-const Preloader = (props) => {
+const Preloader = () => {
   return (
     <div>
       {

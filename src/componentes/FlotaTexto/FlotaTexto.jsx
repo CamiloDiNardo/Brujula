@@ -1,6 +1,6 @@
 import React from 'react';
 import './FlotaTexto.css';
-const FlotaTexto = (props) => {
+const FlotaTexto = () => {
   return (
     <div>
       <p className='flota' data-aos='fade-up'>

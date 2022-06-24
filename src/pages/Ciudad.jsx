@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import PropTypes from 'prop-types';
 import DatosInfoCards from '../InfoCards.json';
 import {
   // SI TENES MUCHAS PAGINAS QUE TIENEN LA  MISMA ESTRUCTURA, HACEMOS 1 SOLA PAGINA. X dentro todas las cards tenian lo mismo, aunque la info era distinta, y como eso se cambia con json y js, no hace falta que hagamos muchos jsx de ciudades si van a tener lo mismo. eso nos ahorra mucho tiempo
@@ -57,7 +56,4 @@ const Ciudad = () => {
     </div>
   );
 };
-
-Ciudad.propTypes = {};
-
 export default Ciudad;

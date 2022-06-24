@@ -5,7 +5,6 @@
 .Titulo--modificador {
   margin-top: 50px;
 }
-/*Cards*/
 .contenedorcards {
   display: flex;
   flex-direction: row;
@@ -76,10 +75,9 @@
   .Titulo--modificador {
     margin-top: 30px;
   }
-  /*Cards Responsive*/
   .contenedorcards {
     flex-direction: column;
-    height: 2500px;
+    height: auto;
     align-content: center;
     justify-content: space-evenly;
   }
@@ -100,6 +98,6 @@
   }
   .contenedorcards--modificador {
     flex-direction: column;
-    height: 1200px;
+    height: auto;
   }
 }

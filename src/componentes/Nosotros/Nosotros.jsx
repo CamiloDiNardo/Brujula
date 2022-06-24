@@ -10,8 +10,9 @@ const Nosotros = () => {
   return (
     <div>
       <div className='EmpresaContenedor'>
-        <img className='EmpresaContenedor__img'></img>
-        <h1 className='EmpresaContenedor__h1'>¿Quienes Somos?</h1>
+        <div className='EmpresaContenedor__img'>
+          <h1 className='EmpresaContenedor__h1'>¿Quienes Somos?</h1>
+        </div>
       </div>
 
       <p className='EmpresaParrafo' data-aos='fade-up'>
@@ -53,10 +54,11 @@ const Nosotros = () => {
       </p>
 
       <div className='EmpresaContenedor'>
-        <img className='EmpresaContenedor__img'></img>
-        <h1 className='EmpresaContenedor__h1 EmpresaContenedor__h1--modificador'>
-          ¿Porque Viajar Con Nosotros?
-        </h1>
+        <div className='EmpresaContenedor__img'>
+          <h1 className='EmpresaContenedor__h1'>
+            ¿Porque Viajar Con Nosotros?
+          </h1>
+        </div>
       </div>
       <div className='imagenessvgContenedor'>
         <p className='imagenessvgContenedor__p'>
@@ -152,15 +154,11 @@ const Nosotros = () => {
       </div>
 
       <div className='EmpresaContenedor'>
-        <img className='EmpresaContenedor__img'></img>
-        <h1 className='EmpresaContenedor__h1 EmpresaContenedor__h1--modificador2'>
-          Hoteles Recomendados
-        </h1>
+        <div className='EmpresaContenedor__img'>
+          <h1 className='EmpresaContenedor__h1'>Hoteles Recomendados</h1>
+        </div>
       </div>
     </div>
   );
 };
-
-Nosotros.propTypes = {};
-
 export default Nosotros;

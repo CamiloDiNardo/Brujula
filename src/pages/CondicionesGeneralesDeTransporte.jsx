@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { HeaderLinks, Formulario, CondicionesGenerales } from '../componentes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-const CondicionesGeneralesDeTransporte = (props) => {
+const CondicionesGeneralesDeTransporte = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, once: true });
   }, []);
