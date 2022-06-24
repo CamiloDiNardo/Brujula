@@ -7,7 +7,7 @@
   width: 1150px;
   height: 300px;
   position: relative;
-  left: 100px;
+  margin: auto;
 }
 .SliderContainer__img {
   width: 100%;

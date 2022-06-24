@@ -18,7 +18,6 @@ import Header from './Header/Header';
 import InfoCards from './InfoCards/InfoCards';
 import Mapa from './Mapa/Mapa';
 import MapCards from './MapCards/MapCards';
-import MapCarrousell3D from './MapCarrousell3D/MapCarrousell3D';
 import MapFlotaCaracteristicas from './MapFlotaCaracteristicas/MapFlotaCaracteristicas';
 import PoliticasDeCookies from './PoliticasDeCookies/PoliticasDeCookies';
 import PoliticasDePrivacidad from './PoliticasDePrivacidad/PoliticasDePrivacidad';
@@ -32,7 +31,6 @@ export {
   ApiMD,
   FlotaTexto,
   InfoCards,
-  MapCarrousell3D,
   MapFlotaCaracteristicas,
   BotonFormulario,
   BotonHamburgesa,

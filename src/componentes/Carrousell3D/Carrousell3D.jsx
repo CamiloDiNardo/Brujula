@@ -3,7 +3,6 @@ import './Carrousell3D.css';
 // Componente Reutilizable, para esto no tiene que tener valores dentro, solo la estructura HTML
 const Carrousell3D = ({ nombre }) => {
 const cantidadFotos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  console.log(nombre);
   return (
     <div className='Carrousel3DContenedor'>
     <div className='Carrousel3DContenedor__div'>

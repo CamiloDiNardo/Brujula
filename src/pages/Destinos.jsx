@@ -4,7 +4,7 @@ import {
   Header,
   Formulario,
   WppFlotante,
-  MapCarrousell3D,
+  Carrousell3D,
 } from '../componentes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -19,8 +19,8 @@ const Destinos = (props) => {
       <h1 className='Titulo aos-init aos-animate' data-aos='fade-up'>
         ¡Veni a disfrutar una aventura en familia!
       </h1>
-      <MapCarrousell3D />
-      <Formulario />
+      <Carrousell3D nombre="Destinos"/>
+      <div style={ { marginTop: "13rem" } }><Formulario/></div>
     </div>
   );
 };
