@@ -90,12 +90,12 @@
     "alternativo": "Bled"
   },
   {
-    "ciudad": "Rio",
+    "ciudad": "Rio De Janeiro",
     "pais": "Brazil",
     "valor": "U$D1100",
     "max": "38°",
     "min": "20°",
-    "linkeado": "Rio",
+    "linkeado": "RioDeJaneiro",
     "imagenes": "assets/CardsPorFuera/Rio.jpg",
     "alternativo": "Rio"
   },

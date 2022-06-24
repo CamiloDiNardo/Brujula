@@ -67,6 +67,7 @@
 .Carrousel3DContenedor__img {
   width: 100%;
   transition: all 300ms;
+  overflow: hidden;
 }
 
 @keyframes rotar {

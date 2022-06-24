@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './CartelCookies.css';
+import { FondoCookies } from '../../componentes';
 import Cookie from '../../assets/cookie-bite-solid.svg';
 const CartelCookies = () => {
   const dataLayer = [];
-  const [, SetDesaparecer] = useState(true);
   const [Rechazar, SetRechazar] = useState(true);
   const condicion1 =
     !localStorage.getItem('cookies-aceptadas') &&
@@ -11,13 +11,14 @@ const CartelCookies = () => {
   const Desapareciendo = () => {
     localStorage.setItem('cookies-aceptadas', true);
     dataLayer.push({ event: 'cookies-aceptadas' });
-    SetDesaparecer(false);
   };
   return (
-    <div>
+    <>
       {condicion1 &&
         Rechazar && ( // FUNCIONO PONER 2 USEESTATE EN EL MISMO {} RECHAZAR HACE QUE TODO SE BORRE AL CLICKEAR EL BOTON! Y LO HICE SOLITO PA Y CONDICION1 SE ENCARGA DE ACEPTAR LAS COOKIES
-          <div className='BannerContenedor' id='BannerContenedor'>
+         <>
+         <FondoCookies/>
+         <div className='BannerContenedor' id='BannerContenedor'>
             <img
               className='BannerContenedor__img'
               src={Cookie}
@@ -29,21 +30,22 @@ const CartelCookies = () => {
             </p>
             <button
               className='card__button card__button--vertodos '
-              id='BannerContenedor__Botonaceptar'>
-              <span className='Card__span' onClick={Desapareciendo}>
+              id='BannerContenedor__Botonaceptar' onClick={Desapareciendo}>
+              <span className='Card__span' >
                 De acuerdo
               </span>
             </button>
             <button
               className='card__button card__button--vertodos '
-              id='BannerContenedor__Botonrechazar'>
-              <span className='Card__span' onClick={() => SetRechazar(false)}>
+              id='BannerContenedor__Botonrechazar' onClick={() => SetRechazar(false)}>
+              <span className='Card__span' >
                 Rechazar{' '}
               </span>
             </button>
           </div>
+          </>
         )}
-    </div>
+    </>
   );
 };
 
