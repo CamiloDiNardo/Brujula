@@ -12,7 +12,9 @@ const InfoCards = ({
   monedas,
   prohibido,
   info,
+  // eslint-disable-next-line react/prop-types
   texto,
+  // eslint-disable-next-line react/prop-types
   imagenes,
 }) => {
   return (
