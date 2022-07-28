@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css';
+import styles from './Footer.module.css';
 import InstagramIcono from '../../assets/instagram-square-brands.svg';
 import WhatshappIcono from '../../assets/whatsapp-brands.svg';
 import FacebookIcono from '../../assets/facebook-brands.svg';
@@ -11,15 +11,15 @@ import DataFiscal from '../../assets/Data fiscal.jpg';
 const Footer = () => {
   return (
     <footer>
-      <div className='ContenedorFooter'>
-        <div className='ContenedorFooter__contenedorIconos'>
+      <div className={styles.ContenedorFooter}>
+        <div>
           <a
             data-aos='fade-up'
             href='https://wa.me/+5401140220039'
             target='_blank'
             rel='noopener noreferrer'>
             <img
-              className='ContenedorFooter__iconos '
+              className={styles.ContenedorFooter__iconos}
               src={WhatshappIcono}
               alt='Whatshapp'></img>
           </a>
@@ -29,9 +29,9 @@ const Footer = () => {
             href='https://www.facebook.com/Viajes-104631895045967/'
             target='_blank'
             rel='noopener noreferrer'
-            className='ContenedorFooter__seguinos'>
+            className={styles.ContenedorFooter__seguinos}>
             <img
-              className='ContenedorFooter__iconos '
+              className={styles.ContenedorFooter__iconos}
               src={FacebookIcono}
               href='https://www.facebook.com/Viajes-104631895045967/'
               alt='Facebook'></img>
@@ -44,7 +44,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'>
             <img
-              className='ContenedorFooter__iconos '
+              className={styles.ContenedorFooter__iconos}
               src={InstagramIcono}
               alt='Instagram'
               href='https://www.instagram.com/mejoresviajesok/'></img>
@@ -56,7 +56,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'>
             <img
-              className='ContenedorFooter__iconos '
+              className={styles.ContenedorFooter__iconos}
               src={YoutubeIcon}
               href='https://www.youtube.com/channel/UCKgGLynM7xJz8Mq999srCsg/'
               alt='Youtube'></img>
@@ -66,48 +66,49 @@ const Footer = () => {
             data-aos='fade-up'
             src={NormasIram}
             alt='NormasIram'
-            className='ContenedorFooter__iconos'></img>{' '}
+            className={styles.ContenedorFooter__iconos}></img>{' '}
           &#124; &nbsp;
           <img
             data-aos='fade-up'
             src={DataFiscal}
             alt='DataFiscal'
-            className='ContenedorFooter__iconos'></img>{' '}
+            className={styles.ContenedorFooter__iconos}></img>{' '}
           &nbsp;
-          <p data-aos='fade-up' className='ContenedorFooter__frase'>
+          <p data-aos='fade-up' className={styles.ContenedorFooter__frase}>
             Todos los derechos reservados - Brujula 2022
           </p>
           <Link
             to='/PoliticasDeCookies'
-            className='ContenedorFooter__seguinos'
+            className={styles.ContenedorFooter__seguinos}
             alt='PoliticaDeCookies'>
             Politica De Cookies
           </Link>{' '}
           &#124; &nbsp;
           <Link
             to='/PoliticasDePrivacidad'
-            className='ContenedorFooter__seguinos'
+            className={styles.ContenedorFooter__seguinos}
             alt='PoliticaDePrivacidad'>
             Politica De Privacidad
           </Link>{' '}
           &#124; &nbsp;
           <Link
             to='/CondicionesGenerales'
-            className='ContenedorFooter__seguinos'
+            className={styles.ContenedorFooter__seguinos}
             alt='CondicionesGenerales'>
             Condiciones Generales
           </Link>
         </div>
       </div>
-      <div className='ContenedorFooter ContenedorFooter--modificador'>
-        <div className='ContenedorFooter__contenedorIconos ContenedorFooter__contenedorIconos--modificador '>
+      <div className={`${styles.ContenedorFooter} ${styles.ContenedorFooter2}`}>
+        <div
+          className={`${styles.ContenedorFooter__contenedorIconos} ${styles.ContenedorFooter__contenedorIconos2}`}>
           <a // esta bien poner los 2 footer (normal y responsive sin cerrar la etiqueta footer hasta el final? o deberia cerrarla y abrir una nueva? mm)
             data-aos='fade-up'
             href='https://wa.me/+5401140220039'
             target='_blank'
             rel='noopener noreferrer'>
             <img
-              className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador'
+              className={`${styles.ContenedorFooter__iconos} ${styles.ContenedorFooter__iconos2}`}
               src={WhatshappIcono}
               alt='Whatshapp'></img>
           </a>
@@ -117,9 +118,9 @@ const Footer = () => {
             href='https://www.facebook.com/Viajes-104631895045967/'
             target='_blank'
             rel='noopener noreferrer'
-            className='ContenedorFooter__seguinos'>
+            className={styles.ContenedorFooter__seguinos}>
             <img
-              className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador '
+              className={`${styles.ContenedorFooter__iconos} ${styles.ContenedorFooter__iconos2}`}
               src={FacebookIcono}
               href='https://www.facebook.com/Viajes-104631895045967/'
               alt='Facebook'></img>
@@ -131,7 +132,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'>
             <img
-              className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador '
+              className={`${styles.ContenedorFooter__iconos} ${styles.ContenedorFooter__iconos2}`}
               src={InstagramIcono}
               alt='Instagram'
               href='https://www.instagram.com/mejoresviajesok/'></img>
@@ -143,7 +144,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'>
             <img
-              className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador '
+              className={`${styles.ContenedorFooter__iconos} ${styles.ContenedorFooter__iconos2}`}
               src={YoutubeIcon}
               href='https://www.youtube.com/channel/UCKgGLynM7xJz8Mq999srCsg/'
               alt='Youtube'></img>
@@ -153,34 +154,34 @@ const Footer = () => {
             data-aos='fade-up'
             src={NormasIram}
             alt='NormasIram'
-            className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador'></img>{' '}
+            className={`${styles.ContenedorFooter__iconos} ${styles.ContenedorFooter__iconos2}`}></img>
           &#124; &nbsp;
           <img
             data-aos='fade-up'
             src={DataFiscal}
             alt='DataFiscal'
-            className='ContenedorFooter__iconos ContenedorFooter__iconos--modificador'></img>{' '}
+            className={`${styles.ContenedorFooter__iconos} ${styles.ContenedorFooter__iconos2}`}></img>{' '}
           &#124; &nbsp;
           <p
             data-aos='fade-up'
-            className='ContenedorFooter__frase ContenedorFooter__frase--modificador'>
+            className={`${styles.ContenedorFooter__frase} ${styles.ContenedorFooter__frase2}`}>
             Todos los derechos reservados
           </p>
           <Link
             to='/PoliticasDeCookies'
-            className='ContenedorFooter__seguinos ContenedorFooter__seguinos--modificador'
+            className={`${styles.ContenedorFooter__seguinos} ${styles.ContenedorFooter__seguinos2}`}
             alt='PoliticaDeCookies'>
             Politica De Cookies
           </Link>
           <Link
             to='/PoliticasDePrivacidad'
-            className='ContenedorFooter__seguinos ContenedorFooter__seguinos--modificador'
+            className={`${styles.ContenedorFooter__seguinos} ${styles.ContenedorFooter__seguinos2}`}
             alt='PoliticaDePrivacidad'>
             Politica De Privacidad
           </Link>
           <Link
             to='/CondicionesGenerales'
-            className='ContenedorFooter__seguinos ContenedorFooter__seguinos--modificador'
+            className={`${styles.ContenedorFooter__seguinos} ${styles.ContenedorFooter__seguinos2}`}
             alt='CondicionesGenerales'>
             Condiciones Generales
           </Link>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './BotonFormulario.css';
+import styles from './BotonFormulario.module.css';
 const BotonFormulario = () => {
   const NoEnviar = (e) => {
     e.preventDefault();
@@ -7,13 +7,13 @@ const BotonFormulario = () => {
     form.reset();
   };
   return (
-    <div className='ContenedorBotonForm'>
+    <div className={styles.ContenedorBotonForm}>
       <button
         type='submit'
         name='button'
-        className='BotonFormulario ContenedorBotonForm__boton--modificador'
+        className={`${styles.BotonFormulario} ${styles.ContenedorBotonForm__boton2}`}
         onClick={NoEnviar}>
-        <span className='Card__span'>ENVIAR</span>
+        <span className={styles.Card__span}>ENVIAR</span>
       </button>
     </div> // Acrodate que el onClick NUNCA va en el span xq sino a veces funciona y a vece sno. tiene que ir en el boton.
   );

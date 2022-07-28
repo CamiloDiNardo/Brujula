@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ApiMD.css';
+import styles from './ApiMD.module.css';
 const ApiMD = () => {
   const [pagina, setPagina] = useState(1); // useState para la paginacion.
   const CargarMovieDatabase = async () => {
@@ -34,26 +34,26 @@ const ApiMD = () => {
   return (
     // Api de peliculas MoveDatabase
     <div>
-      <h1 className='Titulo' data-aos='fade-up'>
+      <h1 className={styles.Titulo} data-aos='fade-up'>
         ¡Selecciona entre más de 1000 peliculas para que no te aburras en tu
         viaje!
       </h1>
       <div
-        className='MovieDatabase'
+        className={styles.MovieDatabase}
         id='MovieDatabase'
         data-aos='fade-up'></div>
       <div // Los Botones los hacemos directamente aca.
         id='botonesContenedor'
-        className='ContenedorBotonForm ContenedorBotonForm--modificador'>
+        className={`${styles.ContenedorBotonForm} ${styles.ContenedorBotonForm2}`}>
         <button // Si pagina es mayor a 1 entonces a la pagina le restamos 1
-          className='Boton__Api ContenedorBotonForm__boton--modificador'
+          className={`${styles.BotonApi} ${styles.ContenedorBotonForm__boton2}`}
           onClick={() => pagina > 1 && setPagina(pagina - 1)}>
-          Volver
+          <span className={styles.card__span}>Volver</span>
         </button>
         <button // si estamos en una pagina < 1000 entonces sumamos 1 a la pag
-          className='Boton__Api ContenedorBotonForm__boton--modificador'
+          className={`${styles.BotonApi} ${styles.ContenedorBotonForm__boton2}`}
           onClick={() => pagina < 1000 && setPagina(pagina + 1)}>
-          Siguiente
+          <span className={styles.card__span}>Siguiente</span>
         </button>
       </div>
     </div>

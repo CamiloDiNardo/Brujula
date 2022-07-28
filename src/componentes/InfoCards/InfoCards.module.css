@@ -1,0 +1,15 @@
+.Lista {
+  list-style: none;
+  padding-left: 1.25rem;
+}
+.Titulo {
+  font-size: 60px;
+  text-align: center;
+}
+@media screen and (max-width: 57.1875rem) {
+  .Titulo {
+    padding-top: 0.625rem;
+    font-size: 1.5625rem;
+    text-align: center;
+  }
+}

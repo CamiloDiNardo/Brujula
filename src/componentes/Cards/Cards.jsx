@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Temperatura from '../../assets/temperature-half-solid.svg';
 import Wifi from '../../assets/wifi-solid.svg';
-import './Cards.css';
+import styles from './Cards.module.css';
 const Cards = ({
   ciudad,
   pais,
@@ -15,27 +15,27 @@ const Cards = ({
   alternativo,
 }) => {
   return (
-    <div className='card'>
+    <div className={styles.card}>
       <img
-        className='card__img'
+        className={styles.card__img}
         src={require(`../../${imagenes}`)} // como podria hacerlo sin el require ?
         alt={alternativo}></img>
       <h1>
         {ciudad} &#124; {pais}
       </h1>
-      <p className='card__p'>
+      <p className={styles.card__p}>
         Desde:<b>{valor}</b>
       </p>
-      <img className='card__icono' src={Temperatura} alt='Wifi'></img>
+      <img className={styles.card__icono} src={Temperatura} alt='Wifi'></img>
       WIFI &#124;
-      <img className='card__icono' src={Wifi} alt='Temperatura'></img>
+      <img className={styles.card__icono} src={Wifi} alt='Temperatura'></img>
       Temperatura:
       <b>
         {min}&#124;{max}
       </b>
       <Link to={linkeado}>
-        <button className='card__button'>
-          <span className='Card__span'>VER MAS</span>
+        <button className={styles.card__button}>
+          <span className={styles.card__span}>VER MAS</span>
         </button>
       </Link>
     </div>

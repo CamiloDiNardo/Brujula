@@ -3,27 +3,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  margin-bottom: 10px;
+  height: 5rem;
+  margin-bottom: 0.625rem;
 }
 .card__button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50px;
+  height: 3.125rem;
   background-color: rgb(158, 3, 3);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   cursor: pointer;
   transition: 3s ease all;
   position: relative;
   overflow: hidden;
   color: #fff;
 }
-.card__button--vertodos {
-  width: 400px;
+.card__button2 {
+  width: 25rem;
 }
-.Card__span {
+.card__span {
   position: relative;
   transition: 0.3s ease all;
   z-index: 10;
@@ -35,18 +35,18 @@
   height: 100%;
   position: absolute;
   z-index: 1;
-  top: -46px;
+  top: -2.875rem;
   transition: 1s ease-in-out all;
 }
 
 .card__button:hover::after {
   top: 0;
 }
-@media screen and (max-width: 915px) {
-  .card__button--vertodos {
-    width: 380px;
+@media screen and (max-width: 57.1875rem) {
+  .card__button2 {
+    width: 23.75rem;
   }
   .card__button {
-    margin-top: 15px;
+    margin-top: 0.9375rem;
   }
 }

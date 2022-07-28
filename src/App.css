@@ -9,13 +9,7 @@ body::-webkit-scrollbar-thumb {
   height: 120px;
 }
 
-/*desp fijate de donde es esta propiedad camilo*/
-.Condiciones {
-  color: rgb(196, 132, 13);
-  font-size: 30px;
-  text-decoration: none;
-}
-/* Css de la api poner esto en la api y probar si funciona*/
+/*Api css*/
 .ContenedorPeliculas {
   text-align: center;
   height: 300px;
@@ -34,14 +28,6 @@ body::-webkit-scrollbar-thumb {
 }
 .ContenedorPeliculas__img:hover {
   transform: scale(1.15);
-}
-
-/*Cartel Cookies desp fijate si tenes q eliminar estas*/
-.BannerContenedor.activo {
-  display: block;
-}
-.FondoCookie.activo {
-  display: block;
 }
 /*RESPONSIVE*/
 @media screen and (max-width: 915px) {
@@ -62,44 +48,5 @@ body::-webkit-scrollbar-thumb {
   }
   .ContenedorPeliculas__img:hover {
     transform: scale(1.05);
-  }
-  /*Footer*/
-  .ContenedorFooter {
-    display: none;
-  }
-  .ContenedorFooter--modificador {
-    display: flex;
-    width: 415px;
-    height: 250px;
-    margin-top: 20px;
-    padding-left: 10px;
-  }
-  .ContenedorFooter__contenedorIconos--modificador {
-    height: 150px;
-  }
-  .ContenedorFooter__iconos--modificador {
-    position: relative;
-    left: -2px;
-    height: 30px;
-  }
-  .ContenedorFooter__frase--modificador {
-    height: 50px;
-    padding-top: 20px;
-  }
-  .ContenedorFooter__seguinos--modificador {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    padding-top: 10px;
-    width: max-content; /*Con esta propiedad se autoajusta a lo maximo que puede pero respetando el contenido. good*/
-  }
-
-  /*Vertodos*/
-  .contenedorcards--modificador2 {
-    height: 5000px;
-  }
-  .LogoResponsive {
-    max-width: 20px;
-    max-height: 20px;
   }
 }

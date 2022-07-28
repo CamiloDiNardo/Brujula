@@ -1,9 +1,9 @@
 import React from 'react';
-import './CondicionesGenerales.css';
+import styles from './CondicionesGenerales.module.css';
 const CondicionesGenerales = (props) => {
   return (
     <div>
-      <p className='Legales'>
+      <p className={styles.Legales}>
         Deber de información:
         <br />
         El presente documento tiene por objeto tener informado al pasajero de

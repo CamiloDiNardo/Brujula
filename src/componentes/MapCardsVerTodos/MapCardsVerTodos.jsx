@@ -1,14 +1,15 @@
 import React from 'react';
 import DatosCards from '../../Cards.json';
 import { CardsVerTodos } from '../../componentes';
+import styles from '../CardsVerTodos/CardsVerTodos.module.css'
 const MapCardsVerTodos = () => {
   return (
     <div>
-      <h1 className='Titulo Titulo--modificador' data-aos='fade-up'>
+      <h1 className={`${styles.Titulo} ${styles.Titulo2}`} data-aos='fade-up'>
         Modelos Añadidos Recientemente
       </h1>
       <div
-        className='contenedorcards contenedorcards--modificador'
+        className={`${styles.contenedorcards} ${styles.contenedorcards2}`}
         data-aos='fade-up'>
         {DatosCards.map(
           (
@@ -30,7 +31,7 @@ const MapCardsVerTodos = () => {
               {index === 2 &&
                 <h1
                   style={{ width: '100%' }}
-                  className='Titulo Titulo--modificador'>
+                  className={`${styles.Titulo} ${styles.Titulo2}`}>
                   Más Modelos
                 </h1>
               }

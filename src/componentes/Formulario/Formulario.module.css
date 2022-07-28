@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 750px;
+  height: 46.875rem;
   width: 100%;
   justify-content: space-around;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .formularioPartido {
   display: flex;
@@ -13,8 +13,8 @@
 }
 .FormPrimeraParte,
 .FormSegundaParte {
-  width: 605px;
-  height: 325px;
+  width: 37.8125rem;
+  height: 20.3125rem;
 }
 .Forminput,
 .selector {
@@ -22,22 +22,22 @@
   background: #000;
   outline: none;
   border: none;
-  border-bottom: 3px solid rgb(158, 3, 3);
+  border-bottom: 0.1875rem solid rgb(158, 3, 3);
   width: 90%;
-  height: 70px;
-  border-radius: 10px;
+  height: 4.375rem;
+  border-radius: 0.625rem;
 }
 .labels {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: bold;
 }
 .ContenedorConsulta {
   flex-wrap: wrap;
-  width: 1150px;
-  height: 200px;
+  width: 71.875rem;
+  height: 12.5rem;
 }
-.Forminput--textarea {
-  height: 150px;
+.Forminput__textarea {
+  height: 9.375rem;
   width: 100%;
   resize: none;
 }
@@ -45,50 +45,57 @@
 .ContenedorBotonForm__boton {
   background-color: #000;
   color: rgb(158, 3, 3);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
-  width: 120px;
-  height: 50px;
+  width: 7.5rem;
+  height: 3.125rem;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 1000;
 }
 .Titulo {
   text-align: center;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 57.1875rem) {
   .ContenedorForm {
     flex-direction: column;
-    height: 950px;
-    justify-content: none;
+    height: 45.375rem;
   }
   .formularioPartido {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .FormPrimeraParte,
   .FormSegundaParte {
-    width: 415px;
-    height: 325px;
+    width: 25.9375rem;
+    height: 12.3125rem;
   }
   .Forminput,
   .selector {
-    margin-left: 10px;
+    margin-left: 0.625rem;
+    height: 2.5rem;
+    width: 22.4rem;
   }
   .labels {
-    margin-left: 10px;
+    font-size: 1.2rem;
+    margin-left: 0.625rem;
     font-size: none;
   }
   .ContenedorConsulta {
-    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    justify-content: center;
   }
-  .Forminput--textarea {
-    height: 150px;
-    width: 100%;
+  .Forminput__textarea {
+    height: 8.375rem;
+    width: 20rem;
   }
   .Titulo {
-    padding-top: 30px;
-    font-size: 40px;
+    padding-top: 1.25rem;
+    font-size: 1.56rem;
   }
 }

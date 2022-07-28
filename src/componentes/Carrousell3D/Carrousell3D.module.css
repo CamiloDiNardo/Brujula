@@ -1,11 +1,11 @@
 .Titulo {
   text-align: center;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .Carrousel3DContenedor {
-  width: 190px;
+  width: 11.875rem;
   margin: auto;
-  perspective: 1000px;
+  perspective: 62.5rem;
   position: relative;
 }
 .Carrousel3DContenedor__div {
@@ -21,46 +21,46 @@
 }
 .Carrousel3DContenedor__figure {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   overflow: hidden;
   position: absolute;
-  box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0rem 0rem 1.25rem 0rem black;
   transition: all 300ms;
 }
 .Carrousel3DContenedor__figure:hover {
-  box-shadow: 0px 0px 0px 0px black;
+  box-shadow: 0rem 0rem 0rem 0rem black;
   transition: all 300ms;
 }
 
 .Carrousel3DContenedor__figure:nth-child(1) {
-  transform: rotateY(0deg) translateZ(300px);
+  transform: rotateY(0deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(2) {
-  transform: rotateY(36deg) translateZ(300px);
+  transform: rotateY(36deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(3) {
-  transform: rotateY(72deg) translateZ(300px);
+  transform: rotateY(72deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(4) {
-  transform: rotateY(108deg) translateZ(300px);
+  transform: rotateY(108deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(5) {
-  transform: rotateY(144deg) translateZ(300px);
+  transform: rotateY(144deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(6) {
-  transform: rotateY(180deg) translateZ(300px);
+  transform: rotateY(180deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(7) {
-  transform: rotateY(216deg) translateZ(300px);
+  transform: rotateY(216deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(8) {
-  transform: rotateY(252deg) translateZ(300px);
+  transform: rotateY(252deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(9) {
-  transform: rotateY(288deg) translateZ(300px);
+  transform: rotateY(288deg) translateZ(18.75rem);
 }
 .Carrousel3DContenedor__figure:nth-child(10) {
-  transform: rotateY(324deg) translateZ(300px);
+  transform: rotateY(324deg) translateZ(18.75rem);
 }
 
 .Carrousel3DContenedor__img {
@@ -77,9 +77,9 @@
     transform: rotateY(360deg);
   }
 }
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 57.1875rem) {
   .Titulo {
-    padding-top: 10px;
-    font-size: 25px;
+    padding-top: 0.625rem;
+    font-size: 1.5625rem;
   }
 }

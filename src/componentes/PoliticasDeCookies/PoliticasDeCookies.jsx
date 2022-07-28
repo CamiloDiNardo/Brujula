@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import './PoliticasDeCookies.css';
+import styles from './PoliticasDeCookies.module.css';
 const PoliticasDeCookies = () => {
   return (
     <div>
-      <p className='Legales'>
+      <p className={styles.Legales}>
         Brujula S.A., con domicilio legal en la Av. Rafael Obligado s/n,
         Terminal 4, 5° Piso, Aeroparque Jorge Newbery, Ciudad Autónoma de Buenos
         Aires. <br />

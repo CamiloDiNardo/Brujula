@@ -1,9 +1,9 @@
 import React from 'react';
-import './PoliticasDePrivacidad.css';
+import styles from './PoliticasDePrivacidad.module.css';
 const PoliticasDePrivacidad = () => {
   return (
     <div>
-      <p className='Legales'>
+      <p className={styles.Legales}>
         La actividad que desarrolla la empresa se encuentra fiscalizada por
         Administración Nacional de la Aviación Civil (ANAC).
         <br />

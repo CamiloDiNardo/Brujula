@@ -1,45 +1,45 @@
 import React from 'react';
-import './Formulario.css';
+import styles from './Formulario.module.css';
 import { BotonFormulario } from '../../componentes';
 const Formulario = () => {
   return (
-    <div className='ContenedorForm' id='formulario' data-aos='fade-up'>
+    <div className={styles.ContenedorForm} id='formulario' data-aos='fade-up'>
       <form id='form'>
-        <h1 className='Titulo'>Contactanos</h1>
-        <div className='formularioPartido'>
-          <div className='FormPrimeraParte'>
-            <label className='labels' htmlFor='nombre'>
+        <h1 className={styles.Titulo}>Contactanos</h1>
+        <div className={styles.formularioPartido}>
+          <div className={styles.FormPrimeraParte}>
+            <label className={styles.labels} htmlFor='nombre'>
               Nombre
             </label>
             <input
               type='text'
-              className='Forminput'
+              className={styles.Forminput}
               name='nombre'
               id='nombre'
               required=''
               placeholder='Ingrese su Nombre'></input>
-            <label className='labels'>Horario de Contacto</label>
-            <select className='selector'>
+            <label className={styles.labels}>Horario de Contacto</label>
+            <select className={styles.selector}>
               <option>10:00 - 12:00</option>
               <option>12:00 - 15:00</option>
               <option>15:00 - 19:00</option>
             </select>
-            <label className='labels' htmlFor='CodigoDeArea'>
+            <label className={styles.labels} htmlFor='CodigoDeArea'>
               Codigo de area
             </label>
             <input
               type='number'
-              className='Forminput'
+              className={styles.Forminput}
               name='CodigoDeArea'
               id='CodigoDeArea'
               required=''
               placeholder='Ingrese su Numero de area'></input>
           </div>
-          <div className='FormSegundaParte'>
-            <label className='labels' htmlFor='Provincia'>
+          <div className={styles.FormSegundaParte}>
+            <label className={styles.labels} htmlFor='Provincia'>
               Provincia
             </label>
-            <select className='selector' name='Provincia' id='Provincia'>
+            <select className={styles.selector} name='Provincia' id='Provincia'>
               <option value='Buenos Aires'>Buenos Aires</option>
               <option value='Capital Federal'>Capital Federal</option>
               <option value='Catamarca'>Catamarca</option>
@@ -65,35 +65,35 @@ const Formulario = () => {
               <option value='Tierra Del Fuego'>Tierra Del Fuego</option>
               <option value='Tucuman'>Tucuman</option>
             </select>
-            <label className='labels' htmlFor='email'>
+            <label className={styles.labels} htmlFor='email'>
               Email
             </label>
             <input
               type='email'
-              className='Forminput'
+              className={styles.Forminput}
               name='email'
               id='email'
               required=''
               placeholder='Ingrese su Email'></input>
-            <label className='labels' htmlFor='telefono'>
+            <label className={styles.labels} htmlFor='telefono'>
               Telefono
             </label>
             <input
               type='tel'
-              className='Forminput'
+              className={styles.Forminput}
               name='telefono'
               id='Telefono'
               required=''
               placeholder='Ingrese su Telefono'></input>
           </div>
         </div>
-        <div className='ContenedorConsulta'>
-          <label className='labels' htmlFor='Consulta'>
+        <div className={styles.ContenedorConsulta}>
+          <label className={styles.labels} htmlFor='Consulta'>
             Consulta
           </label>
           <textarea
             type='text'
-            className='Forminput Forminput--textarea'
+            className={`${styles.Forminput} ${styles.Forminput__textarea}`}
             name='Consulta'
             id='Consulta'
             required=''

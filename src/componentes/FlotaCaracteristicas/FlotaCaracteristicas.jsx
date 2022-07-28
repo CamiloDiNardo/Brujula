@@ -1,5 +1,5 @@
 import React from 'react';
-import './FlotaCaracteristicas.css';
+import styles from './FlotaCaracteristicas.module.css';
 import PropTypes from 'prop-types';
 const FlotaCaracteristicas = ({
   titulo,
@@ -13,12 +13,12 @@ const FlotaCaracteristicas = ({
 }) => {
   return (
     <div>
-      <h1 className='Titulo' data-aos='fade-up'>
+      <h1 className={styles.Titulo} data-aos='fade-up'>
         {titulo}
       </h1>
-      <p className='FlotaContenedor__p' data-aos='fade-up'>
+      <p className={styles.FlotaContenedor__p} data-aos='fade-up'>
         <img
-          className='FlotaContenedor__img'
+          className={styles.FlotaContenedor__img}
           data-aos='fade-up'
           src={require(`../../${avion}`)}
           alt={texto}></img>

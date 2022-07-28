@@ -1,11 +1,11 @@
 import React from 'react';
-import './Preloader.css';
+import styles from './Preloader.module.css';
 import Gift from '../../assets/load-gif.gif';
 const Preloader = () => {
   return (
     <div>
       {
-        <div className='loader desaparecer'>
+        <div className={`${styles.loader} ${styles.desaparecer}`}>
           <img src={Gift} alt='Preloader'></img>
         </div>
       }

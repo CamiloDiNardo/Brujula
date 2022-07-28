@@ -2,24 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BotonHamburgesa } from '../../componentes';
 import Logo from '../../assets/brujulacolorida.jpg';
-import '../HeaderLinks/HeaderLinks.css';
+import styles from '../HeaderLinks/HeaderLinks.module.css';
 const HeaderLinks = () => {
   return (
     <header>
       <nav>
-        <div className='brujula' id='brujula'>
+        <div className={styles.brujula} id='brujula'>
           <Link to='/'>
-            <img className='brujula__img' src={Logo} alt='Brujula'></img>
+            <img className={styles.brujula__img} src={Logo} alt='Brujula'></img>
           </Link>
           <BotonHamburgesa />
-          <div className='link'>
-            <Link to='/PoliticasDeCookies' className='links__a2'>
+          <div className={styles.link}>
+            <Link to='/PoliticasDeCookies' className={styles.links__a2}>
               Politica De Cookies
             </Link>
-            <Link to='/PoliticasDePrivacidad' className='links__a2'>
+            <Link to='/PoliticasDePrivacidad' className={styles.links__a2}>
               Politica De Privacidad
             </Link>
-            <Link to='/CondicionesGenerales' className='links__a2'>
+            <Link to='/CondicionesGenerales' className={styles.links__a2}>
               Condiciones Generales
             </Link>
           </div>

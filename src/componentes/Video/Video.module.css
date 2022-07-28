@@ -14,7 +14,7 @@
   min-width: 100%;
   min-height: 100%;
 }
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 57.1875rem) {
   .ContenedorComercial1 {
     position: relative;
     min-height: 89vh;

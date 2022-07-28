@@ -1,16 +1,16 @@
 .brujula {
   display: flex;
   flex-direction: row;
-  height: 150px;
+  height: 9.375rem;
   background-color: rgb(13, 61, 100);
 }
 .brujula__img {
-  width: 150px;
-  border-radius: 80px;
+  width: 9.375rem;
+  border-radius: 5rem;
 }
 .link {
-  width: 1200px;
-  height: 150px;
+  width: 75rem;
+  height: 9.375rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,29 +18,28 @@
 
 .links__a2 {
   color: rgb(196, 132, 13);
-  font-size: 30px;
+  font-size: 1.875rem;
   text-decoration: none;
 }
-.links__a2:hover,
-.Condiciones:hover {
+.links__a2:hover {
   text-decoration: underline rgb(196, 132, 13);
 }
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 57.1875rem) {
   /*Header*/
   .brujula {
-    height: 100px;
+    height: 6.25rem;
   }
   .brujula__img {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
   }
   .link {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    top: 99px;
+    top: 6.1875rem;
     width: 100%;
-    height: calc(100% - 99px);
+    height: calc(100% - 6.1875rem);
     background-color: rgb(13, 61, 100);
     overflow-y: auto;
     left: 100%;
@@ -54,13 +53,13 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    width: 250px;
-    height: 50px;
-    margin-top: 40px;
+    width: 15.625rem;
+    height: 3.125rem;
+    margin-top: 2.5rem;
   }
   .BotonHamburguesa__icono {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     cursor: pointer;
   }
 }

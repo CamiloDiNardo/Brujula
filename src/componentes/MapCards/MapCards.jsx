@@ -1,16 +1,17 @@
 import React from 'react';
 import DatosCards from '../../Cards.json';
 import { Cards } from '../../componentes';
+import styles from '../Cards/Cards.module.css';
 const MapCards = () => {
   const NuevosDatos = DatosCards.slice(3, 9); // ponete en la posicion 3 del array y elimina 6 elementos
   // console.log(DatosCards, 'cards que quedaron');
   // console.log(NuevosDatos, 'Estos son los nuevos datos');
   return (
     <div>
-      <h1 className='Titulo Titulo--modificador' data-aos='fade-up'>
+      <h1 className={`${styles.Titulo} ${styles.Titulo2}`} data-aos='fade-up'>
         Destinos Destacados
       </h1>
-      <div className='contenedorcards' data-aos='fade-up'>
+      <div className={styles.contenedorcards} data-aos='fade-up'>
         {NuevosDatos.map(
           // Mapeamos el array modificado con slice
           // podriamos agregarle Nuevosdatos && NuevosDatos.map que verifica que alla datos en NuevosDatos antes de mapearlo

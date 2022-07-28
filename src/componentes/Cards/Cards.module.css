@@ -1,9 +1,9 @@
 .Titulo {
   text-align: center;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
-.Titulo--modificador {
-  margin-top: 50px;
+.Titulo2 {
+  margin-top: 3.125rem;
 }
 .contenedorcards {
   display: flex;
@@ -12,20 +12,22 @@
   justify-content: space-around;
   height: auto;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 .card {
   width: 30%;
-  border-radius: 10px;
-  height: 450px;
+  border-radius: 0.625rem;
+  height: 28.125rem;
   text-align: center;
-  box-shadow: 5px 5px 30px rgb(0, 0, 0);
+  box-shadow: 0.3125rem 0.3125rem 1.875rem rgb(0, 0, 0);
+  padding: 0.625rem;
+  box-sizing: content-box;
 }
 .card__img {
   width: 100%;
-  border-radius: 10px;
-  margin-top: 30px;
-  height: 200px;
+  border-radius: 0.625rem;
+  margin-top: 1.875rem;
+  height: 12.5rem;
   transition: all 600ms;
 }
 .card__img:hover {
@@ -33,10 +35,10 @@
   object-fit: cover;
 }
 .card__p {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .card__icono {
-  width: 20px;
+  width: 1.25rem;
   text-align: start;
 }
 .card__button {
@@ -44,9 +46,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50px;
+  height: 3.125rem;
   background-color: rgb(158, 3, 3);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   cursor: pointer;
   transition: 3s ease all;
   position: relative;
@@ -60,44 +62,49 @@
   height: 100%;
   position: absolute;
   z-index: 1;
-  top: -46px;
+  top: -2.875rem;
   transition: 1s ease-in-out all;
 }
 
 .card__button:hover::after {
   top: 0;
 }
-@media screen and (max-width: 915px) {
+
+.card__span {
+  position: relative;
+  transition: 0.3s ease all;
+  z-index: 10;
+}
+@media screen and (max-width: 57.1875rem) {
   .Titulo {
-    padding-top: 10px;
-    font-size: 25px;
+    padding-top: 0.625rem;
+    font-size: 1.5625rem;
   }
-  .Titulo--modificador {
-    margin-top: 30px;
+  .Titulo2 {
+    margin-top: 1.875rem;
   }
   .contenedorcards {
     flex-direction: column;
-    height: auto;
+    height: 156.25rem;
     align-content: center;
     justify-content: space-evenly;
   }
   .card {
     width: 90%;
-    height: 380px;
+    height: 23.75rem;
   }
   .card__img {
-    margin-top: 22px;
-    height: 140px;
+    margin-top: 1.375rem;
+    height: 8.75rem;
   }
   .card__p {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .card__icono {
-    width: 20px;
+    width: 1.25rem;
     text-align: start;
   }
-  .contenedorcards--modificador {
-    flex-direction: column;
-    height: auto;
+  .card__button {
+    margin-top: 0.9375rem;
   }
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import DatosFlota from '../../Flota.json';
 import { FlotaCaracteristicas } from '../../componentes';
-
+import styles from '../FlotaCaracteristicas/FlotaCaracteristicas.module.css';
 const MapFlotaCaracteristicas = () => {
   console.log(DatosFlota);
   return (
     <div>
-      <div className='FlotaContenedor'>
+      <div className={styles.FlotaContenedor}>
         <div data-aos='fade-up'>
           {DatosFlota.map(
             (

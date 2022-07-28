@@ -1,0 +1,88 @@
+/*Peliculas*/
+.Titulo {
+  text-align: center;
+  font-size: 3.75rem;
+}
+.MovieDatabase {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 93.75rem;
+}
+.ContenedorBotonForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 4.375rem;
+  align-items: center;
+}
+.ContenedorBotonForm2 {
+  justify-content: center;
+}
+.BotonApi {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.125rem;
+  background-color: rgb(158, 3, 3);
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: 3s ease all;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+.ContenedorBotonForm__boton2 {
+  width: 12.5rem;
+  margin-right: 3.75rem;
+}
+.card__span {
+  position: relative;
+  transition: 0.3s ease all;
+  z-index: 10;
+}
+.BotonApi::after {
+  content: '';
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: -2.875rem;
+  transition: 1s ease-in-out all;
+}
+
+.BotonApi:hover::after {
+  top: 0;
+}
+
+@media screen and (max-width: 57.1875rem) {
+  .Titulo {
+    padding-top: 0.625rem;
+    font-size: 1.5625rem;
+  }
+  .MovieDatabase {
+    height: 160.25rem;
+  }
+  .ContenedorBotonForm {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2.5rem;
+  }
+  .ContenedorBotonForm2 {
+    height: 6.25rem;
+    width: auto;
+  }
+  .BotonApi {
+    margin-top: 0.9375rem;
+  }
+  .ContenedorBotonForm__boton2 {
+    width: 7.5rem;
+    margin-right: none;
+    border: 0.1875rem solid #000;
+  }
+}

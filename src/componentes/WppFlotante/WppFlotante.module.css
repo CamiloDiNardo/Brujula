@@ -4,25 +4,25 @@
   justify-content: center;
   align-content: center;
   position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
+  width: 3.75rem;
+  height: 3.75rem;
+  bottom: 2.5rem;
+  right: 2.5rem;
   background-color: #25d366;
   color: #fff;
-  border-radius: 50px;
-  box-shadow: 2px 2px 3px #999;
+  border-radius: 3.125rem;
+  box-shadow: 0.125rem 0.125rem 0.1875rem #999;
   z-index: 50;
 }
 .WhatshappFlotante:hover {
   background-color: #04cc4efd;
 }
 .WhatshappFlotante__svg {
-  width: 40px;
+  width: 2.5rem;
 }
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 57.1875rem) {
   .WhatshappFlotante {
     bottom: none;
-    top: 600px;
+    top: 37.5rem;
   }
 }

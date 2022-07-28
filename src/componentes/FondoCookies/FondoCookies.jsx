@@ -1,7 +1,7 @@
 import React from 'react';
-import './FondoCookies.css';
+import styles from './FondoCookies.module.css';
 const FondoCookies = (props) => {
-  return <div className='FondoCookie' id='FondoCookie'></div>;
+  return <div className={styles.FondoCookie} id='FondoCookie'></div>;
 };
 
 export default FondoCookies;

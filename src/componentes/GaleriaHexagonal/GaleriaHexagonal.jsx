@@ -1,6 +1,6 @@
 import React from 'react';
 // si bien puedo hacerlo con un json decidi hacerlo de esta manera mas basica para practicar y ahorrar algo de tiempo
-import './GaleriaHexagonal.css';
+import styles from './GaleriaHexagonal.module.css';
 import Hotel1 from '../../assets/hotel complejo abierto-2400x1800.jpg';
 import Hotel2 from '../../assets/hotel dubai-554x364.jpg';
 import Hotel3 from '../../assets/hotel lujo español-1000x696.jpg';
@@ -13,48 +13,51 @@ const GaleriaHexagonal = () => {
     <div>
       <br />
       <br />
-      <div className='GaleriaHexagonalContenedor' data-aos='fade-up'>
-        <div className='GaleriaHexagonal__div GaleriaHexagonal__div--modificador'>
+      <div className={styles.GaleriaHexagonalContenedor} data-aos='fade-up'>
+        <div
+          className={`${styles.GaleriaHexagonal__div} ${styles.GaleriaHexagonal__div2}`}>
           <img
             src={Hotel1}
             alt='ImgHexagonal'
-            className='GaleriaHexagonal__img'></img>
+            className={styles.GaleriaHexagonal__img}></img>
         </div>
-        <div className='GaleriaHexagonal__div GaleriaHexagonal__div--modificador'>
+        <div
+          className={`${styles.GaleriaHexagonal__div} ${styles.GaleriaHexagonal__div2}`}>
           <img
             src={Hotel2}
             alt='ImgHexagonal'
-            className='GaleriaHexagonal__img'></img>
+            className={styles.GaleriaHexagonal__img}></img>
         </div>
-        <div className='GaleriaHexagonal__div GaleriaHexagonal__div--modificador'>
+        <div
+          className={`${styles.GaleriaHexagonal__div} ${styles.GaleriaHexagonal__div2}`}>
           <img
             src={Hotel3}
             alt='ImgHexagonal'
-            className='GaleriaHexagonal__img'></img>
+            className={styles.GaleriaHexagonal__img}></img>
         </div>
-        <div className='GaleriaHexagonal__div'>
+        <div className={styles.GaleriaHexagonal__div}>
           <img
             src={Hotel4}
             alt='ImgHexagonal'
-            className='GaleriaHexagonal__img'></img>
+            className={styles.GaleriaHexagonal__img}></img>
         </div>
-        <div className='GaleriaHexagonal__div'>
+        <div className={styles.GaleriaHexagonal__div}>
           <img
             src={Hotel5}
             alt='ImgHexagonal'
-            className='GaleriaHexagonal__img'></img>
+            className={styles.GaleriaHexagonal__img}></img>
         </div>
-        <div className='GaleriaHexagonal__div'>
+        <div className={styles.GaleriaHexagonal__div}>
           <img
             src={Hotel6}
             alt='ImgHexagonal'
-            className='GaleriaHexagonal__img'></img>
+            className={styles.GaleriaHexagonal__img}></img>
         </div>
-        <div className='GaleriaHexagonal__div'>
+        <div className={styles.GaleriaHexagonal__div}>
           <img
             src={Hotel7}
             alt='ImgHexagonal'
-            className='GaleriaHexagonal__img'></img>
+            className={styles.GaleriaHexagonal__img}></img>
         </div>
       </div>
       <br />

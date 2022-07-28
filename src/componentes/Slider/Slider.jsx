@@ -8,7 +8,7 @@ import img6 from '../../assets/Img6.jpg';
 import img7 from '../../assets/Img7.jpg';
 import img8 from '../../assets/Img8.jpg';
 import img9 from '../../assets/Img9.jpg';
-import './Slider.css';
+import styles from './Slider.module.css';
 const Slider = () => {
   const ImgArray = [img1, img2, img3, img4, img5, img6, img7, img8, img9]; // array con imagenes
   const [SeleccionarIndex, SetSeleccionarIndex] = useState(0); // esto es para que empiece en 0 el arreglo de img
@@ -38,20 +38,24 @@ const Slider = () => {
   };
   return (
     <div>
-      <h1 className='Titulo' data-aos='fade-up'>
+      <h1 className={styles.Titulo} data-aos='fade-up'>
         ¡vivi una aventura Inolvidable!
       </h1>
       <br />
-      <div className='SliderContainer' data-aos='fade-up'>
+      <div className={styles.SliderContainer} data-aos='fade-up'>
         <img
           src={ImgSeleccionada}
           alt='imagenSlider'
           id='slider'
-          className='SliderContainer__img'></img>
-        <button className='BotonSlider BotonSlider1' onClick={Resta}>
+          className={styles.SliderContainer__img}></img>
+        <button
+          className={`${styles.BotonSlider} ${styles.BotonSlider1}`}
+          onClick={Resta}>
           {'<'}
         </button>
-        <button className='BotonSlider BotonSlider2' onClick={Suma}>
+        <button
+          className={`${styles.BotonSlider} ${styles.BotonSlider2}`}
+          onClick={Suma}>
           {'>'}
         </button>
       </div>

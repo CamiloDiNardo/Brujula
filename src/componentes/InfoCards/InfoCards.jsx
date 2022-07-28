@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carrousell3D } from '../../componentes';
-import '../InfoCards/InfoCards.css';
+import styles from '../InfoCards/InfoCards.module.css';
 import PropTypes from 'prop-types';
 const InfoCards = ({
   // Para sacar la info de las cards 1 x 1, no hacemos map, xq el map recorre todo, y hacerlo con slice no se si se puede, y consume muchos recursos.
@@ -19,7 +19,7 @@ const InfoCards = ({
 }) => {
   return (
     <div>
-      <h1 className='Titulo'>
+      <h1 className={styles.Titulo}>
         {
           nombre.replace(
             /([A-Z])/g,
@@ -28,41 +28,41 @@ const InfoCards = ({
         }
       </h1>
       <Carrousell3D texto={texto} imagenes={imagenes} nombre={nombre} />
-      <h1 className='Titulo' style={{ marginTop: '13rem' }}>
+      <h1 className={styles.Titulo} style={{ marginTop: '13rem' }}>
         Caracteristicas
       </h1>
       <br />
-      <li className='Lista'>
+      <li className={styles.Lista}>
         <b>Clima: </b> &nbsp;
         {clima}
       </li>
       <br />
-      <li className='Lista'>
+      <li className={styles.Lista}>
         <b>Excursiones Recomendadas:</b> &nbsp;
         {excursiones}
       </li>
       <br />
-      <li className='Lista'>
+      <li className={styles.Lista}>
         <b>Servicios:</b> &nbsp;
         {servicios}
       </li>
       <br />
-      <li className='Lista'>
+      <li className={styles.Lista}>
         <b>Temporada Turistica:</b> &nbsp;
         {temporada}
       </li>
       <br />
-      <li className='Lista'>
+      <li className={styles.Lista}>
         <b> Monedas Admitidas:</b> &nbsp;
         {monedas}
       </li>
       <br />
-      <li className='Lista'>
+      <li className={styles.Lista}>
         <b> Prohibido:</b> &nbsp;
         {prohibido}
       </li>
       <br />
-      <p className='Lista'>{info}</p>
+      <p className={styles.Lista}>{info}</p>
     </div>
   );
 };

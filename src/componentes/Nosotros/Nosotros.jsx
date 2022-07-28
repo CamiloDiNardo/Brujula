@@ -1,5 +1,5 @@
 import React from 'react';
-import './Nosotros.css';
+import styles from './Nosotros.module.css';
 import PremioIcono from '../../assets/award-solid.svg';
 import SeguridadIcono from '../../assets/shield-halved-solid.svg';
 import SaludIcono from '../../assets/briefcase-medical-solid.svg';
@@ -9,13 +9,13 @@ import ManzanaIcono from '../../assets/apple-whole-solid.svg';
 const Nosotros = () => {
   return (
     <div>
-      <div className='EmpresaContenedor'>
-        <div className='EmpresaContenedor__img'>
-          <h1 className='EmpresaContenedor__h1'>¿Quienes Somos?</h1>
+      <div className={styles.EmpresaContenedor}>
+        <div className={styles.EmpresaContenedor__img}>
+          <h1 className={styles.EmpresaContenedor__h1}>¿Quienes Somos?</h1>
         </div>
       </div>
 
-      <p className='EmpresaParrafo' data-aos='fade-up'>
+      <p className={styles.EmpresaParrafo} data-aos='fade-up'>
         <b>Brujula</b> es la compañía líder del mercado aerocomercial argentino
         desde 1950. Vuela a 37 destinos dentro del país y opera 20 destinos
         internacionales dentro de América y Europa. Cuenta con una amplia red de
@@ -53,109 +53,109 @@ const Nosotros = () => {
         prácticas de la industria a nivel mundial
       </p>
 
-      <div className='EmpresaContenedor'>
-        <div className='EmpresaContenedor__img'>
-          <h1 className='EmpresaContenedor__h1'>
+      <div className={styles.EmpresaContenedor}>
+        <div className={styles.EmpresaContenedor__img}>
+          <h1 className={styles.EmpresaContenedor__h1}>
             ¿Porque Viajar Con Nosotros?
           </h1>
         </div>
       </div>
-      <div className='imagenessvgContenedor'>
-        <p className='imagenessvgContenedor__p'>
+      <div className={styles.imagenessvgContenedor}>
+        <p className={styles.imagenessvgContenedor__p}>
           <img
             src={PremioIcono}
-            className='imagenessvgContenedor__iconos'
+            className={styles.imagenessvgContenedor__iconos}
             alt='Medalla'></img>
           <b> Previamente inspeccionados, experimentados y diseñados: </b>
           &nbsp; por nuestros expertos en producto.
         </p>
-        <p className='imagenessvgContenedor__p'>
+        <p className={styles.imagenessvgContenedor__p}>
           <img
             src={SeguridadIcono}
-            className='imagenessvgContenedor__iconos'
+            className={styles.imagenessvgContenedor__iconos}
             alt='Seguridad'></img>
           <b> Seguridad privada:</b> &nbsp; de primera calidad que lo acompañara
           en su travesia.
         </p>
-        <p className='imagenessvgContenedor__p'>
+        <p className={styles.imagenessvgContenedor__p}>
           <img
             src={SaludIcono}
-            className='imagenessvgContenedor__iconos'
+            className={styles.imagenessvgContenedor__iconos}
             alt='Salud'></img>
           <b>asistencia sanitaria: &nbsp; </b> en el país o fuera de él en caso
           de accidente o enfermedad.
         </p>
-        <p className='imagenessvgContenedor__p'>
+        <p className={styles.imagenessvgContenedor__p}>
           <img
             src={DadosIcono}
-            className='imagenessvgContenedor__iconos'
+            className={styles.imagenessvgContenedor__iconos}
             alt='Actividades'></img>
           <b>Actividades exclusivas.</b>
         </p>
-        <p className='imagenessvgContenedor__p'>
+        <p className={styles.imagenessvgContenedor__p}>
           <img
             src={AvionIcono}
-            className='imagenessvgContenedor__iconos'
+            className={styles.imagenessvgContenedor__iconos}
             alt='Transporte'></img>
           <b>Transporte ida y vuelta:</b> &nbsp; a su hotel las 24 horas.
         </p>
-        <p className='imagenessvgContenedor__p'>
+        <p className={styles.imagenessvgContenedor__p}>
           <img
             src={ManzanaIcono}
-            className='imagenessvgContenedor__iconos'
+            className={styles.imagenessvgContenedor__iconos}
             alt='Gastronomia'></img>
           <b>Servicio Gastronomico:</b>&nbsp;incluido 5 veces por dia, con
           dietas personalizadas.
         </p>
       </div>
-      <div className='imagenessvgContenedor--modificador'>
-        <p className='imagenessvgContenedor__p--modificador'>
+      <div className={styles.imagenessvgContenedor2}>
+        <p className={styles.imagenessvgContenedor__p2}>
           <img
             src={PremioIcono}
-            className='imagenessvgContenedor__iconos--modificador'
+            className={styles.imagenessvgContenedor__iconos2}
             alt='Medalla'></img>
           <b> Previamente inspeccionados, experimentados y diseñados.</b>
         </p>
-        <p className='imagenessvgContenedor__p--modificador'>
+        <p className={styles.imagenessvgContenedor__p2}>
           <img
             src={SeguridadIcono}
-            className='imagenessvgContenedor__iconos--modificador'
+            className={styles.imagenessvgContenedor__iconos2}
             alt='Seguridad'></img>
           <b> Seguridad privada.</b>
         </p>
-        <p className='imagenessvgContenedor__p--modificador'>
+        <p className={styles.imagenessvgContenedor__p2}>
           <img
             src={SaludIcono}
-            className='imagenessvgContenedor__iconos--modificador'
+            className={styles.imagenessvgContenedor__iconos2}
             alt='Salud'></img>
           <b>asistencia sanitaria.</b>
         </p>
-        <p className='imagenessvgContenedor__p--modificador'>
+        <p className={styles.imagenessvgContenedor__p}>
           <img
             src={DadosIcono}
-            className='imagenessvgContenedor__iconos--modificador'
+            className={styles.imagenessvgContenedor__iconos2}
             alt='Actividades'></img>
           <b>Actividades exclusivas.</b>
         </p>
-        <p className='imagenessvgContenedor__p--modificador'>
+        <p className={styles.imagenessvgContenedor__p2}>
           <img
             src={AvionIcono}
-            className='imagenessvgContenedor__iconos--modificador'
+            className={styles.imagenessvgContenedor__iconos2}
             alt='Transporte'></img>
           <b>Transporte ida y vuelta.</b> &nbsp;
         </p>
-        <p className='imagenessvgContenedor__p--modificador'>
+        <p className={styles.imagenessvgContenedor__p2}>
           <img
             src={ManzanaIcono}
-            className='imagenessvgContenedor__iconos--modificador'
+            className={styles.imagenessvgContenedor__iconos2}
             alt='Gastronomia'></img>
           <b>Servicio Gastronomico.</b>
         </p>
       </div>
 
-      <div className='EmpresaContenedor'>
-        <div className='EmpresaContenedor__img'>
-          <h1 className='EmpresaContenedor__h1'>Hoteles Recomendados</h1>
+      <div className={styles.EmpresaContenedor}>
+        <div className={styles.EmpresaContenedor__img}>
+          <h1 className={styles.EmpresaContenedor__h1}>Hoteles Recomendados</h1>
         </div>
       </div>
     </div>

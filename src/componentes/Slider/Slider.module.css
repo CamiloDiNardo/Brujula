@@ -1,69 +1,69 @@
 .Titulo {
   text-align: center;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .SliderContainer {
-  width: 1150px;
-  height: 300px;
+  width: 71.875rem;
+  height: 18.75rem;
   position: relative;
   margin: auto;
 }
 .SliderContainer__img {
   width: 100%;
   height: 100%;
-  box-shadow: 25px 25px 8px rgb(0, 0, 0);
-  border-radius: 10px;
+  box-shadow: 1.5625rem 1.5625rem 0.5rem rgb(0, 0, 0);
+  border-radius: 0.625rem;
 }
 .BotonSlider {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   background-color: #000;
   cursor: pointer;
   border: none;
 }
 .BotonSlider1 {
   position: relative;
-  top: -180px;
+  top: -11.25rem;
   color: #fff;
 }
 .BotonSlider2 {
   position: relative;
-  top: -180px;
-  left: 1050px;
+  top: -11.25rem;
+  left: 65.625rem;
   color: #fff;
 }
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 57.1875rem) {
   .Titulo {
-    padding-top: 20px;
-    font-size: 25px;
+    padding-top: 1.25rem;
+    font-size: 1.5625rem;
   }
   .SliderContainer {
-    width: 390px;
-    height: 200px;
-    left: 5px;
+    width: 24.375rem;
+    height: 12.5rem;
+    left: 0.3125rem;
   }
   .SliderContainer__img {
     width: 100%;
     height: 100%;
-    box-shadow: 15px 15px 4px rgb(0, 0, 0);
-    border-radius: 10px;
+    box-shadow: 0.9375rem 0.9375rem 0.25rem rgb(0, 0, 0);
+    border-radius: 0.625rem;
   }
   .BotonSlider {
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     background-color: #000;
     cursor: pointer;
     border: none;
   }
   .BotonSlider1 {
     position: relative;
-    top: -120px;
+    top: -7.5rem;
     color: #fff;
   }
   .BotonSlider2 {
     position: relative;
-    top: -120px;
-    left: 330px;
+    top: -7.5rem;
+    left: 20.625rem;
     color: #fff;
   }
 }

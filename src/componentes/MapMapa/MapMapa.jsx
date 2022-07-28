@@ -1,9 +1,10 @@
 import React from 'react';
 import DataMapa from '../../Mapa.json';
 import { Mapa } from '../../componentes';
+import styles from '../Mapa/Mapa.module.css';
 const MapMapa = () => {
   return (
-    <div className='ContenedorMaps' data-aos='fade-up'>
+    <div className={styles.ContenedorMaps} data-aos='fade-up'>
       {DataMapa.map(
         (
           { titulo, mapa },
